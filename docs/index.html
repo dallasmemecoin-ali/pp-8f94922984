@@ -23,7 +23,7 @@
   --card: #ffffff;
   --ink: #101828;
   --ink-2: #4a5568;
-  --ink-3: #8491a5;
+  --ink-3: #667085;
   --line: #e2e8f1;
   --blue: #0b63ce;
   --blue-soft: #e6f0fd;
@@ -63,10 +63,12 @@ header {
 #refresh {
   flex: none; display: inline-flex; align-items: center; gap: 7px;
   border: 0; border-radius: 999px; background: var(--blue); color: #fff;
-  font: 600 15px var(--font); padding: 9px 15px; min-height: 40px; cursor: pointer;
+  font: 600 15px var(--font); padding: 9px 15px; min-height: 44px; cursor: pointer; touch-action: manipulation;
 }
 #refresh:active { opacity: .8; }
-#refresh:focus-visible { outline: 3px solid var(--blue-soft); outline-offset: 2px; }
+#refresh:disabled { opacity: .7; }
+#refresh:focus-visible, .offer:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.offer:focus-visible { outline-offset: -3px; }
 #refresh svg { width: 16px; height: 16px; }
 #refresh.busy svg { animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -90,7 +92,7 @@ h2 {
   align-items: start; padding: 11px 14px; border-top: 1px solid var(--line);
 }
 .offer:active { background: var(--bg); }
-.store { font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.store { font-size: 15px; font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
 .title { grid-column: 1; color: var(--ink-3); font-size: 12px; overflow-wrap: anywhere; }
 .old { grid-column: 1; color: var(--amber); font-size: 12px; }
 .prices { grid-row: 1 / span 3; grid-column: 2; text-align: right; font-variant-numeric: tabular-nums; }
@@ -131,7 +133,7 @@ footer { margin-top: 18px; color: var(--ink-3); font-size: 12px; }
       <div class="fact"><small>Exchange rate used</small><b id="rate">…</b><span id="rate-note">&nbsp;</span></div>
       <div class="fact"><small>Prices last collected</small><b id="collected">…</b><span id="collected-note">&nbsp;</span></div>
     </div>
-    <div id="notice" role="status" hidden></div>
+    <div id="notice" role="status" aria-live="polite" hidden></div>
   </div>
 </header>
 
@@ -152,8 +154,26 @@ const fmtUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "US
 let data = null, rate = null;
 
 function esc(s) { return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+// Only http(s) links may reach an href; anything else becomes a dead link.
+function safeUrl(u) { return /^https?:\/\//i.test(String(u ?? "").trim()) ? String(u).trim() : "#"; }
+// Accepts fresh or cached data of any older shape; returns null if unusable.
+function normalize(d) {
+  if (!d || typeof d !== "object" || !Array.isArray(d.models)) return null;
+  d.models = d.models.filter((m) => m && typeof m === "object");
+  for (const m of d.models) {
+    m.offers = (Array.isArray(m.offers) ? m.offers : []).filter((o) => o && Number.isFinite(Number(o.price_try)));
+    for (const o of m.offers) { o.price_try = Number(o.price_try); if (!Object.prototype.hasOwnProperty.call(STATUS, o.status)) o.status = "unknown"; }
+  }
+  const st = d.stores && typeof d.stores === "object" ? d.stores : {};
+  d.stores = { covered: Array.isArray(st.covered) ? st.covered : [], not_covered: Array.isArray(st.not_covered) ? st.not_covered : [] };
+  if (!(d.rate && Number(d.rate.usd_try) > 1 && Number(d.rate.usd_try) < 1000)) d.rate = null;
+  else d.rate.usd_try = Number(d.rate.usd_try);
+  return d;
+}
 function ago(iso) {
-  const min = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  const ms = Date.now() - new Date(iso);
+  if (isNaN(ms)) return "time unknown";
+  const min = Math.max(0, Math.round(ms / 60000));
   if (min < 1) return "just now";
   if (min < 60) return min + " min ago";
   const h = Math.floor(min / 60);
@@ -161,7 +181,9 @@ function ago(iso) {
   return Math.floor(h / 24) + " days ago";
 }
 function clock(iso) {
-  const d = new Date(iso), today = new Date().toDateString() === d.toDateString();
+  const d = new Date(iso);
+  if (isNaN(d)) return "unknown";
+  const today = new Date().toDateString() === d.toDateString();
   const t = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
   return today ? t : d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) + " " + t;
 }
@@ -207,22 +229,23 @@ function render() {
   if (!data) return;
   const r = rate || data.rate;
   $("rate").textContent = r ? "1 USD = " + r.usd_try.toFixed(4) + " TL" : "Not available";
-  $("rate-note").textContent = r ? (r.live ? "Live market rate, " + clock(r.at) : (r === rate ? "Daily market rate, " : "Saved market rate, ") + clock(r.at)) : "USD prices hidden";
+  $("rate-note").textContent = r ? (r === rate ? (r.live ? "Live market rate, " : "Daily market rate, ") : "Saved market rate, ") + clock(r.at) : "USD prices hidden";
   $("collected").textContent = clock(data.collected_at);
   $("collected-note").textContent = ago(data.collected_at);
 
   let htmlOut = "", brand = "";
   for (const m of data.models) {
     if (m.brand !== brand) { brand = m.brand; htmlOut += "<h2>" + esc(brand) + "</h2>"; }
-    const live = m.offers.filter((o) => o.status !== "out_of_stock");
-    const gone = m.offers.filter((o) => o.status === "out_of_stock");
+    const byPrice = (a, b) => a.price_try - b.price_try;
+    const live = m.offers.filter((o) => o.status !== "out_of_stock").sort(byPrice);
+    const gone = m.offers.filter((o) => o.status === "out_of_stock").sort(byPrice);
     const inStock = m.offers.filter((o) => o.status === "in_stock");
     const best = inStock.length ? inStock.reduce((a, b) => (b.price_try < a.price_try ? b : a)) : null;
-    htmlOut += '<section class="model"><h3>' + esc(m.brand + " " + m.model) + (m.variant ? " <em>" + esc(m.variant) + "</em>" : "") + "</h3>";
+    htmlOut += '<section class="model"><h3>' + esc((m.brand ?? "") + " " + (m.model ?? "")) + (m.variant ? " <em>" + esc(m.variant) + "</em>" : "") + "</h3>";
     for (const o of live.concat(gone)) {
       const usd = r ? fmtUsd.format(o.price_try / r.usd_try) : "";
       const isBest = o === best && m.offers.length > 1;
-      htmlOut += '<a class="offer ' + o.status + (isBest ? " best" : "") + '" href="' + esc(o.url) + '" target="_blank" rel="noopener noreferrer">'
+      htmlOut += '<a class="offer ' + o.status + (isBest ? " best" : "") + '" href="' + esc(safeUrl(o.url)) + '" target="_blank" rel="noopener noreferrer">'
         + '<div class="store">' + esc(o.store) + (o.seller ? " · " + esc(o.seller) : "") + "</div>"
         + '<div class="prices"><div class="try">₺' + fmtTry.format(o.price_try) + '</div><div class="usd">' + usd + "</div></div>"
         + '<div class="title">' + esc(o.title) + "</div>"
@@ -232,6 +255,7 @@ function render() {
         + (o.stale ? '<div class="old">Store could not be read. Last read ' + esc(ago(o.checked_at)) + ".</div>" : "")
         + "</a>";
     }
+    if (!m.offers.length) htmlOut += '<div class="none">No store lists this printer right now.</div>';
     htmlOut += "</section>";
   }
   $("list").innerHTML = htmlOut;
@@ -247,31 +271,56 @@ function render() {
   fill("missing", "Stores that could not be read", data.stores.not_covered, (s) => s.reason);
 }
 
+let refreshing = false;
 async function refresh() {
+  if (refreshing) return;
+  refreshing = true;
   const btn = $("refresh");
   btn.classList.add("busy"); btn.disabled = true;
   const problems = [];
-  const [prices, live] = await Promise.allSettled([getJson("data/prices.json?t=" + Date.now()), liveRate()]);
-  if (prices.status === "fulfilled") data = prices.value;
-  else problems.push(data ? "Could not load newer prices. Showing the ones already on screen." : "Could not load prices. Check your connection and tap Refresh.");
-  let fresh = live.status === "fulfilled" ? live.value : null;
-  if (!fresh) fresh = await liveRate();                 // the live feed is flaky: one retry
-  if (!fresh && !(data && data.rate)) fresh = await dailyRate();
-  rate = fresh;                                          // null = use the hourly saved rate
-  if (!fresh && data && data.rate) problems.push("Live exchange rate did not answer. Using the rate saved at " + clock(data.rate.at) + ".");
-  if (!fresh && !(data && data.rate)) problems.push("No exchange rate available, so dollar prices are hidden.");
-  $("notice").hidden = !problems.length;
-  $("notice").textContent = problems.join(" ");
-  render();
-  try { if (data) localStorage.setItem("pptr-data", JSON.stringify(data)); } catch (e) { /* storage off */ }
-  btn.classList.remove("busy"); btn.disabled = false;
+  try {
+    const ratePromise = liveRate();                      // never rejects
+    let got = null;
+    try { got = normalize(await getJson("data/prices.json?t=" + Date.now())); } catch (e) { /* reported below */ }
+    if (got) {
+      data = got;
+      try { render(); } catch (e) { /* drawn again below */ }   // show prices without waiting for the rate
+      try { localStorage.setItem("pptr-data", JSON.stringify(data)); } catch (e) { /* storage off */ }
+    } else problems.push(data ? "Could not load newer prices. Showing the ones already on screen." : "Could not load prices. Check your connection and tap Refresh.");
+    let fresh = await ratePromise;
+    if (!fresh) fresh = await liveRate();                 // the live feed is flaky: one retry
+    if (!fresh && !(data && data.rate)) fresh = await dailyRate();
+    rate = fresh;                                          // null = use the hourly saved rate
+    if (!fresh && data && data.rate) problems.push("Live exchange rate did not answer. Using the rate saved at " + clock(data.rate.at) + ".");
+    if (!fresh && !(data && data.rate)) problems.push("No exchange rate available, so dollar prices are hidden.");
+    if (!data) {
+      $("rate").textContent = fresh ? "1 USD = " + fresh.usd_try.toFixed(4) + " TL" : "Not available";
+      $("rate-note").textContent = fresh ? (fresh.live ? "Live market rate, " : "Daily market rate, ") + clock(fresh.at) : "";
+      $("collected").textContent = "Not loaded";
+      $("collected-note").textContent = "";
+    }
+    render();
+  } catch (e) {
+    problems.push("Something went wrong while showing the prices. Tap Refresh to try again.");
+  } finally {
+    $("notice").hidden = !problems.length;
+    $("notice").textContent = problems.join(" ");
+    btn.classList.remove("busy"); btn.disabled = false;
+    refreshing = false;
+  }
 }
 
 $("refresh").addEventListener("click", refresh);
-document.addEventListener("visibilitychange", () => { if (!document.hidden && data && Date.now() - lastRun > 5 * 60000) run(); });
+document.addEventListener("visibilitychange", () => { 
+  if (document.hidden) return;
+  if (data) $("collected-note").textContent = ago(data.collected_at);
+  if (Date.now() - lastRun > 5 * 60000) run();
+});
 let lastRun = 0;
 function run() { lastRun = Date.now(); return refresh(); }
-try { const saved = localStorage.getItem("pptr-data"); if (saved) { data = JSON.parse(saved); render(); } } catch (e) { /* ignore */ }
+// Keep the "N min ago" text honest while the app stays open.
+setInterval(() => { if (data && !document.hidden) $("collected-note").textContent = ago(data.collected_at); }, 30000);
+try { const saved = localStorage.getItem("pptr-data"); if (saved) { data = normalize(JSON.parse(saved)); render(); } } catch (e) { /* ignore */ }
 run();
 </script>
 </body>

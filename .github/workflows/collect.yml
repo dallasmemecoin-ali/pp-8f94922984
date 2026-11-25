@@ -2,31 +2,63 @@ name: Collect prices
 
 on:
   schedule:
-    - cron: "7 * * * *"      # every hour, at 7 minutes past
+    - cron: "7 * * * *"      # every hour, at 7 minutes past (UTC; GitHub may start it late)
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write            # only to commit the two data files below
 
 concurrency:
-  group: collect
+  group: collect             # never two collections at once; a second one waits
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20      # a normal run takes 4 to 9 minutes
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Read the stores
+        env:
+          PYTHONUTF8: "1"
+          PYTHONUNBUFFERED: "1"
         run: python collector/collect.py
+
+      # A crash above stops the job before this point, so nothing is published.
+      - name: Check the result
+        env:
+          PYTHONUTF8: "1"
+        run: |
+          if ! python -c "import json; d = json.load(open('docs/data/prices.json', encoding='utf-8')); m = d.get('models'); assert isinstance(m, list) and m, 'the models list is empty'; print(len(m), 'models')"; then
+            git checkout -- docs/data/prices.json collector/known_urls.json
+            echo "::error::docs/data/prices.json is not valid JSON with a non-empty models list. The previous file was kept and nothing was published."
+            exit 1
+          fi
+
       - name: Save the new prices
         run: |
           git config user.name "price-collector"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/prices.json collector/known_urls.json
-          git diff --cached --quiet || git commit -m "Prices $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git push
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Prices $(date -u +'%Y-%m-%d %H:%M') UTC"
+          # main may have moved while the collector ran (app changes pushed from the PC)
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push attempt $attempt failed, trying again."
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push the new prices after 4 attempts."
+          exit 1

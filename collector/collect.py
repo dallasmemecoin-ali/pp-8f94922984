@@ -19,6 +19,7 @@ import datetime as dt
 import gzip
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -198,6 +199,7 @@ def discover_sitemap(store: dict, log: list) -> list[str]:
         starts = [s if s.startswith("http") else base + "/" + s.lstrip("/")
                   for s in starts] or [base + "/sitemap.xml"]
     seen, queue, found, read_ok = set(), list(dict.fromkeys(starts)), [], 0
+    bad_run = 0
     while queue and len(seen) < MAX_SITEMAPS:
         sm = queue.pop(0)
         if sm in seen:
@@ -207,8 +209,13 @@ def discover_sitemap(store: dict, log: list) -> list[str]:
             xml = fetch(sm, "application/xml,text/xml,*/*")
         except Exception as e:  # noqa: BLE001
             log.append(f"sitemap {sm}: {e}")
+            bad_run += 1
+            if bad_run >= 3:             # store is refusing: stop asking
+                log.append("sitemap crawl stopped after 3 failures in a row")
+                break
+            time.sleep(DELAY)
             continue
-        read_ok += 1
+        read_ok, bad_run = read_ok + 1, 0
         time.sleep(DELAY / 2)
         locs = [html.unescape(x) for x in LOC_RE.findall(xml)]
         if "<sitemapindex" in xml[:2000].lower():
@@ -397,6 +404,8 @@ def run_shopify(store: dict, now: str, log: list) -> list[dict]:
         data = json.loads(fetch(f"{base}/products.json?limit=250&page={page_no}",
                                 "application/json"))
         products = data.get("products", [])
+        if page_no == 1 and not products:
+            raise ValueError("empty product catalogue")
         for prod in products:
             variants = prod.get("variants") or []
             if not variants:
@@ -444,10 +453,15 @@ def run_store(store: dict, known: dict, now: str, rediscover: bool) -> dict:
             return result
         if rediscover or not urls:
             fresh = (discover_search if store.get("search") else discover_sitemap)(store, log)
-            urls = [u for u in dict.fromkeys(fresh + store.get("extra_urls", []))
+            # An incomplete crawl (a sitemap or search failed, or nothing came
+            # back) must not forget listings we already know: keep them too.
+            partial = not fresh or any(
+                line.startswith(("sitemap ", "search ")) for line in log)
+            urls = [u for u in dict.fromkeys(
+                        fresh + store.get("extra_urls", []) + (urls if partial else []))
                     if u not in skip]
             result["urls"], result["discovered_at"] = urls, now
-        read = 0
+        read, gone = 0, set()
         for url in urls[:MAX_PRODUCTS]:
             try:
                 page = fetch(url)
@@ -455,7 +469,11 @@ def run_store(store: dict, known: dict, now: str, rediscover: bool) -> dict:
                 raise
             except Exception as e:  # noqa: BLE001
                 log.append(f"{url}: {e}")
-                result["failed"].add(url)
+                if isinstance(e, urllib.error.HTTPError) and e.code in (404, 410):
+                    gone.add(url)        # page removed: forget it
+                    read += 1            # the store did answer
+                else:
+                    result["failed"].add(url)
                 continue
             finally:
                 time.sleep(DELAY)
@@ -467,7 +485,8 @@ def run_store(store: dict, known: dict, now: str, rediscover: bool) -> dict:
                 skip.add(url)            # a part or another model: never a printer
                 continue
             if p["price"] is None:
-                continue
+                result["failed"].add(url)    # printer page without a price:
+                continue                     # keep the last known offer as old
             cls = classify(p["name"], p["price"])
             if not cls:
                 continue
@@ -479,7 +498,7 @@ def run_store(store: dict, known: dict, now: str, rediscover: bool) -> dict:
                 "status": p["status"], "note": p.get("note", ""),
                 "checked_at": now, "stale": False,
             })
-        result["urls"] = [u for u in urls if u not in skip]
+        result["urls"] = [u for u in urls if u not in skip and u not in gone]
         result["ok"] = read > 0 or not urls
         if not urls:
             result["reason"] = "no watchlist printers listed"
@@ -508,7 +527,7 @@ def dedupe(offers: list[dict]) -> list[dict]:
 # --------------------------------------------------------------------------
 # Exchange rate
 # --------------------------------------------------------------------------
-def usd_try() -> dict | None:
+def usd_try(prev_rate: float | None = None) -> dict | None:
     sources = [
         ("Truncgil Finans", "https://finans.truncgil.com/v4/today.json",
          lambda d: ((float(d["USD"]["Buying"]) + float(d["USD"]["Selling"])) / 2,
@@ -525,6 +544,7 @@ def usd_try() -> dict | None:
                         d["time_last_update_unix"],
                         dt.timezone.utc).isoformat(timespec="seconds"))),
     ]
+    doubtful = None
     for name, url, pick in sources:
         try:
             text = fetch(url, "application/json")
@@ -534,16 +554,42 @@ def usd_try() -> dict | None:
                 usd = re.search(r'"USD"\s*:\s*(\{[^}]*\})', text)
                 data = {"USD": json.loads(usd.group(1))}
             rate, at = pick(data)
-            if 1 < float(rate) < 1000:
-                return {"usd_try": round(float(rate), 4), "source": name, "at": at}
+            rate = float(rate)
+            if not 1 < rate < 1000:
+                raise ValueError(f"rate {rate} out of range")
+            got = {"usd_try": round(rate, 4), "source": name, "at": at}
+            if prev_rate and not 0.75 < rate / prev_rate < 1.33:
+                # far from the last rate: only believe it if no other source works
+                print(f"rate source {name}: {rate} far from {prev_rate}", file=sys.stderr)
+                doubtful = doubtful or got
+                continue
+            return got
         except Exception as e:  # noqa: BLE001
             print(f"rate source {name} failed: {e}", file=sys.stderr)
-    return None
+    return doubtful
 
 
 # --------------------------------------------------------------------------
 # Main
 # --------------------------------------------------------------------------
+def load_json(path: Path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return default
+    except (OSError, ValueError) as e:
+        print(f"could not read {path.name}: {e}", file=sys.stderr)
+        return default
+
+
+def write_json(path: Path, data) -> None:
+    # Write through a temp file so a crash never leaves a half-written file.
+    text = json.dumps(data, ensure_ascii=False, indent=1)
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", help="comma separated store ids")
@@ -554,14 +600,19 @@ def main() -> int:
     stores = json.loads(STORES_FILE.read_text(encoding="utf-8"))
     blocked_list = [s for s in stores if s.get("blocked")]
     stores = [s for s in stores if not s.get("blocked")]
+    active_ids = {s["id"] for s in stores}
     if args.only:
         wanted = set(args.only.split(","))
         stores = [s for s in stores if s["id"] in wanted]
 
     now_dt = dt.datetime.now(dt.timezone.utc)
     now = now_dt.isoformat(timespec="seconds")
-    known = json.loads(CACHE_FILE.read_text(encoding="utf-8")) if CACHE_FILE.exists() else {}
-    previous = json.loads(OUT_FILE.read_text(encoding="utf-8")) if OUT_FILE.exists() else {}
+    known = load_json(CACHE_FILE, {})
+    previous = load_json(OUT_FILE, {})
+    if not isinstance(known, dict):
+        known = {}
+    if not isinstance(previous, dict):
+        previous = {}
 
     def needs_rediscovery(store) -> bool:
         if args.rediscover:
@@ -569,7 +620,10 @@ def main() -> int:
         last = known.get(store["id"], {}).get("discovered_at")
         if not last:
             return True
-        age = now_dt - dt.datetime.fromisoformat(last)
+        try:
+            age = now_dt - dt.datetime.fromisoformat(last)
+        except (TypeError, ValueError):
+            return True
         return age > dt.timedelta(hours=REDISCOVER_HOURS)
 
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
@@ -593,20 +647,33 @@ def main() -> int:
     fresh_urls = {o["url"] for o in offers}
     by_id = {r["id"]: r for r in results}
     cutoff = now_dt - dt.timedelta(days=KEEP_STALE_DAYS)
+    known_models = {(b, m) for b, m, _, _ in MODELS}
     for m in previous.get("models", []):
+        if (m.get("brand"), m.get("model")) not in known_models:
+            continue                         # no longer on the watchlist
         for o in m.get("offers", []):
-            if o["url"] in fresh_urls:
+            try:
+                if o["url"] in fresh_urls:
+                    continue
+                carried = {"seller": "", "note": "", "stale": False, **o,
+                           "brand": m["brand"], "model": m["model"],
+                           "variant": m.get("variant", "")}
+                for k in ("store", "store_id", "title", "price_try", "status"):
+                    carried[k]               # KeyError: broken entry, drop it
+                r = by_id.get(o["store_id"])
+                if r is None:                # store not part of this run
+                    if args.only and o["store_id"] in active_ids:
+                        offers.append(carried)
+                    continue                 # store removed from stores.json
+                if r["ok"] and o["url"] not in r["failed"]:
+                    continue                 # store answered: listing is gone
+                checked = dt.datetime.fromisoformat(o["checked_at"])
+                if checked.tzinfo is None:
+                    checked = checked.replace(tzinfo=dt.timezone.utc)
+                if checked >= cutoff:
+                    offers.append({**carried, "stale": True})
+            except (KeyError, TypeError, ValueError):
                 continue
-            carried = {"note": "", **o, "brand": m["brand"],
-                       "model": m["model"], "variant": m["variant"]}
-            r = by_id.get(o["store_id"])
-            if r is None:                    # store not part of this run
-                offers.append(carried)
-                continue
-            if r["ok"] and o["url"] not in r["failed"]:
-                continue                     # store answered: listing is gone
-            if dt.datetime.fromisoformat(o["checked_at"]) >= cutoff:
-                offers.append({**carried, "stale": True})
 
     groups: dict[tuple, dict] = {}
     for o in offers:
@@ -624,9 +691,14 @@ def main() -> int:
         g["variant"]))
     status_rank = {"in_stock": 0, "pre_order": 0, "unknown": 0, "out_of_stock": 1}
     for g in models:
-        g["offers"].sort(key=lambda o: (status_rank[o["status"]], o["price_try"]))
+        g["offers"].sort(key=lambda o: (status_rank.get(o["status"], 0), o["price_try"]))
 
-    rate = usd_try() or previous.get("rate")
+    prev_rate = previous.get("rate") if isinstance(previous.get("rate"), dict) else None
+    try:
+        last = float(prev_rate["usd_try"]) if prev_rate else None
+    except (KeyError, TypeError, ValueError):
+        last = None
+    rate = usd_try(last) or prev_rate
     covered = [{"name": r["name"], "offers": len(r["offers"])}
                for r in results if r["ok"]]
     not_covered = ([{"name": r["name"], "reason": r["reason"]}
@@ -643,11 +715,11 @@ def main() -> int:
            "stores": {"covered": sorted(covered, key=lambda s: s["name"].lower()),
                       "not_covered": sorted(not_covered, key=lambda s: s["name"].lower())}}
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_json(OUT_FILE, out)
     for r in results:
         known[r["id"]] = {"urls": r["urls"], "skip": sorted(r.get("skip", [])),
                           "discovered_at": r["discovered_at"]}
-    CACHE_FILE.write_text(json.dumps(known, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_json(CACHE_FILE, known)
     print(f"wrote {OUT_FILE} - {sum(len(g['offers']) for g in models)} offers, "
           f"{len(models)} versions, rate {rate}")
     return 0

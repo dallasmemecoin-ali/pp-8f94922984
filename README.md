@@ -11,6 +11,12 @@ stock, and the price in US dollars at the current market rate.
   `collector/stores.json`, finds the watchlist printers through the store's
   sitemap (or its Shopify product feed), opens every product page and writes
   `docs/data/prices.json`.
+- The job starts at 7 minutes past each hour (GitHub may start it a few
+  minutes late) and commits only `docs/data/prices.json` and
+  `collector/known_urls.json` (the cache of product URLs it has found). If
+  the collector crashes or produces an empty result, nothing is published
+  and the previous prices stay. If `main` changed during the run, the job
+  rebases onto it before pushing.
 - `docs/` is the web app, served by GitHub Pages. The Refresh button loads
   the newest `prices.json` and a live USD/TRY rate.
 - Stores that answer automated reading with a bot check are not worked
@@ -33,6 +39,7 @@ structured price excludes VAT), `instock_markers` and `preorder_markers`.
     python collector/collect.py                  # full run, about 4-9 minutes
     python collector/collect.py --only robo90    # one store
     python collector/collect.py --probe          # print results, write nothing
+    python collector/collect.py --rediscover     # ignore the cached product URLs
     python -m http.server 8765 --directory docs  # then open localhost:8765
 
 Only the Python standard library is needed (`make_icons.py` needs Pillow).
