@@ -1,9 +1,9 @@
 {
- "collected_at": "2026-11-25T11:00:16+00:00",
+ "collected_at": "2026-11-25T12:05:22+00:00",
  "rate": {
-  "usd_try": 50.6762,
-  "source": "Yahoo Finance",
-  "at": "2026-11-25T11:03:46+00:00"
+  "usd_try": 50.6776,
+  "source": "Truncgil Finans",
+  "at": "2026-11-25T12:08:54+00:00"
  },
  "models": [
   {
@@ -21,7 +21,7 @@
      "price_try": 35287.67,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -33,7 +33,7 @@
      "price_try": 37552.85,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -45,7 +45,7 @@
      "price_try": 43135.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -57,7 +57,7 @@
      "price_try": 43139.47,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -69,7 +69,7 @@
      "price_try": 44400.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -89,7 +89,7 @@
      "price_try": 48176.12,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -101,7 +101,7 @@
      "price_try": 48643.77,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -113,7 +113,7 @@
      "price_try": 49690.51,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -125,7 +125,7 @@
      "price_try": 50730.0,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -137,7 +137,7 @@
      "price_try": 51420.63,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -149,7 +149,7 @@
      "price_try": 53699.74,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -161,7 +161,7 @@
      "price_try": 50233.73,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -173,7 +173,7 @@
      "price_try": 51894.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -185,7 +185,7 @@
      "price_try": 51900.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -197,7 +197,7 @@
      "price_try": 60740.62,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -217,19 +217,7 @@
      "price_try": 21571.9,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
-     "stale": false
-    },
-    {
-     "store": "MetatechTR (Bambu Lab distributor)",
-     "store_id": "metatech",
-     "seller": "",
-     "title": "Bambu Lab A2L 3D Printer",
-     "url": "https://store.metatechtr.com/bambu-lab-a2l-3d-printer",
-     "price_try": 22932.54,
-     "status": "in_stock",
-     "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -241,7 +229,7 @@
      "price_try": 24084.69,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -253,7 +241,7 @@
      "price_try": 24301.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -265,7 +253,7 @@
      "price_try": 24351.69,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -277,7 +265,7 @@
      "price_try": 24599.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -289,7 +277,7 @@
      "price_try": 25200.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -301,7 +289,7 @@
      "price_try": 25441.64,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -313,7 +301,19 @@
      "price_try": 26010.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
+     "stale": false
+    },
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-a2l-3d-printer",
+     "price_try": 22932.54,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -325,7 +325,7 @@
      "price_try": 23155.22,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -337,7 +337,7 @@
      "price_try": 24449.99,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -357,7 +357,7 @@
      "price_try": 27202.46,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -369,7 +369,7 @@
      "price_try": 29421.21,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -381,7 +381,7 @@
      "price_try": 29706.59,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -393,7 +393,7 @@
      "price_try": 30883.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -405,7 +405,7 @@
      "price_try": 31031.22,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -417,7 +417,7 @@
      "price_try": 31286.95,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -429,7 +429,7 @@
      "price_try": 32640.21,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -441,7 +441,7 @@
      "price_try": 33017.4,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -453,7 +453,7 @@
      "price_try": 30941.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -465,7 +465,7 @@
      "price_try": 32400.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -477,7 +477,7 @@
      "price_try": 32639.99,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -489,7 +489,7 @@
      "price_try": 34955.76,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -509,7 +509,7 @@
      "price_try": 25000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -521,7 +521,7 @@
      "price_try": 26154.59,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -533,7 +533,7 @@
      "price_try": 26911.89,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -545,7 +545,7 @@
      "price_try": 28088.8,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -557,7 +557,7 @@
      "price_try": 28245.7,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -569,7 +569,7 @@
      "price_try": 30422.76,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -581,7 +581,7 @@
      "price_try": 34023.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -593,7 +593,7 @@
      "price_try": 35213.26,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -613,7 +613,7 @@
      "price_try": 22773.06,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -625,7 +625,7 @@
      "price_try": 22932.54,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -637,7 +637,7 @@
      "price_try": 24338.21,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -649,7 +649,7 @@
      "price_try": 24849.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -661,7 +661,7 @@
      "price_try": 25240.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -673,7 +673,7 @@
      "price_try": 25500.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -685,7 +685,7 @@
      "price_try": 25681.69,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -697,7 +697,7 @@
      "price_try": 23155.22,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -709,7 +709,7 @@
      "price_try": 24659.94,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -721,7 +721,7 @@
      "price_try": 25999.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -733,7 +733,7 @@
      "price_try": 27462.16,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -745,7 +745,7 @@
      "price_try": 32130.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -765,7 +765,7 @@
      "price_try": 40194.6,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -777,7 +777,7 @@
      "price_try": 41856.25,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -789,7 +789,7 @@
      "price_try": 44538.92,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -801,7 +801,7 @@
      "price_try": 45687.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -821,7 +821,7 @@
      "price_try": 30843.38,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -833,7 +833,7 @@
      "price_try": 31142.66,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -845,7 +845,7 @@
      "price_try": 31785.02,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -857,7 +857,7 @@
      "price_try": 32196.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -869,7 +869,7 @@
      "price_try": 32957.99,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -881,7 +881,7 @@
      "price_try": 34702.65,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -893,7 +893,7 @@
      "price_try": 34800.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -905,7 +905,7 @@
      "price_try": 32655.45,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -917,7 +917,7 @@
      "price_try": 34999.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -929,7 +929,7 @@
      "price_try": 37454.4,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -941,7 +941,7 @@
      "price_try": 37894.9,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -953,7 +953,7 @@
      "price_try": 38425.07,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -973,7 +973,7 @@
      "price_try": 29421.21,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -985,7 +985,7 @@
      "price_try": 31115.52,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -997,7 +997,7 @@
      "price_try": 35746.74,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1009,7 +1009,7 @@
      "price_try": 29706.59,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1021,7 +1021,7 @@
      "price_try": 31479.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1033,7 +1033,7 @@
      "price_try": 31744.86,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1045,7 +1045,7 @@
      "price_try": 33102.13,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1057,7 +1057,7 @@
      "price_try": 33999.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1069,7 +1069,7 @@
      "price_try": 35736.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1081,7 +1081,7 @@
      "price_try": 37645.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1093,7 +1093,7 @@
      "price_try": 37800.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1113,7 +1113,7 @@
      "price_try": 39287.53,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1125,7 +1125,7 @@
      "price_try": 39668.9,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1137,7 +1137,7 @@
      "price_try": 42353.71,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1149,7 +1149,7 @@
      "price_try": 43605.96,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1161,7 +1161,7 @@
      "price_try": 43800.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1173,7 +1173,7 @@
      "price_try": 44203.22,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1185,7 +1185,7 @@
      "price_try": 50634.24,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1197,7 +1197,7 @@
      "price_try": 41236.82,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1209,7 +1209,7 @@
      "price_try": 41667.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1221,7 +1221,7 @@
      "price_try": 46095.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1233,7 +1233,7 @@
      "price_try": 48872.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1245,7 +1245,7 @@
      "price_try": 48960.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1265,7 +1265,7 @@
      "price_try": 212532.1,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1277,7 +1277,7 @@
      "price_try": 224665.41,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1297,7 +1297,7 @@
      "price_try": 206342.43,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1309,7 +1309,7 @@
      "price_try": 213247.49,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1321,7 +1321,7 @@
      "price_try": 219000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1333,7 +1333,7 @@
      "price_try": 220717.41,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1345,7 +1345,7 @@
      "price_try": 226189.42,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1365,7 +1365,7 @@
      "price_try": 88481.05,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1377,7 +1377,7 @@
      "price_try": 92890.83,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1389,7 +1389,7 @@
      "price_try": 98625.14,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1401,7 +1401,7 @@
      "price_try": 89339.93,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1413,7 +1413,7 @@
      "price_try": 90245.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1425,7 +1425,7 @@
      "price_try": 94603.67,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1437,7 +1437,7 @@
      "price_try": 95385.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1449,7 +1449,7 @@
      "price_try": 108094.25,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1469,7 +1469,7 @@
      "price_try": 101171.21,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1481,7 +1481,7 @@
      "price_try": 102153.35,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1493,7 +1493,7 @@
      "price_try": 103381.07,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1505,7 +1505,7 @@
      "price_try": 103437.38,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1517,7 +1517,7 @@
      "price_try": 106320.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1529,7 +1529,7 @@
      "price_try": 107914.8,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1541,7 +1541,7 @@
      "price_try": 108000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1553,7 +1553,7 @@
      "price_try": 112770.11,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1565,7 +1565,7 @@
      "price_try": 115563.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1577,7 +1577,7 @@
      "price_try": 115794.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1589,7 +1589,7 @@
      "price_try": 116280.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1609,7 +1609,7 @@
      "price_try": 108464.52,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1629,7 +1629,7 @@
      "price_try": 115431.23,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1641,7 +1641,7 @@
      "price_try": 180540.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1661,7 +1661,7 @@
      "price_try": 123225.84,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1673,7 +1673,7 @@
      "price_try": 131347.73,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1685,7 +1685,7 @@
      "price_try": 132000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1697,7 +1697,7 @@
      "price_try": 135127.76,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1709,7 +1709,7 @@
      "price_try": 137353.62,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1721,7 +1721,7 @@
      "price_try": 124422.37,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1733,7 +1733,7 @@
      "price_try": 131506.38,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1745,7 +1745,7 @@
      "price_try": 144444.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1757,7 +1757,7 @@
      "price_try": 158206.45,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1777,7 +1777,7 @@
      "price_try": 145455.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1789,7 +1789,7 @@
      "price_try": 168000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1801,7 +1801,7 @@
      "price_try": 168846.32,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1813,7 +1813,7 @@
      "price_try": 146867.85,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1825,7 +1825,7 @@
      "price_try": 155063.76,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1837,7 +1837,7 @@
      "price_try": 162131.7,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1849,7 +1849,7 @@
      "price_try": 174319.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1861,7 +1861,7 @@
      "price_try": 197777.61,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1873,7 +1873,7 @@
      "price_try": 209602.49,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1893,7 +1893,7 @@
      "price_try": 64175.57,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1905,7 +1905,7 @@
      "price_try": 64798.43,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1917,7 +1917,7 @@
      "price_try": 68445.05,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1929,7 +1929,7 @@
      "price_try": 71197.37,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1941,7 +1941,7 @@
      "price_try": 76246.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1953,7 +1953,7 @@
      "price_try": 77625.27,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1965,7 +1965,7 @@
      "price_try": 80366.79,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -1985,7 +1985,7 @@
      "price_try": 73864.12,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -1997,7 +1997,7 @@
      "price_try": 74580.95,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2009,7 +2009,7 @@
      "price_try": 77664.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2021,7 +2021,7 @@
      "price_try": 78751.15,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2033,7 +2033,7 @@
      "price_try": 79099.18,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2045,7 +2045,7 @@
      "price_try": 81600.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2057,7 +2057,7 @@
      "price_try": 82332.32,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2069,7 +2069,7 @@
      "price_try": 88824.98,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2081,7 +2081,7 @@
      "price_try": 84159.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2093,7 +2093,7 @@
      "price_try": 90944.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2105,7 +2105,7 @@
      "price_try": 91800.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2125,7 +2125,7 @@
      "price_try": 96263.35,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2137,7 +2137,7 @@
      "price_try": 102981.55,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2149,7 +2149,7 @@
      "price_try": 103200.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2161,7 +2161,7 @@
      "price_try": 105979.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2173,7 +2173,7 @@
      "price_try": 107299.92,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2185,7 +2185,7 @@
      "price_try": 136902.42,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2197,7 +2197,7 @@
      "price_try": 97197.92,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2209,7 +2209,7 @@
      "price_try": 101257.5,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2221,7 +2221,7 @@
      "price_try": 102966.9,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2241,7 +2241,7 @@
      "price_try": 111107.28,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2253,7 +2253,7 @@
      "price_try": 114095.16,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2265,7 +2265,7 @@
      "price_try": 120000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2277,7 +2277,7 @@
      "price_try": 112185.92,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2289,7 +2289,7 @@
      "price_try": 115331.95,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2301,7 +2301,7 @@
      "price_try": 116620.58,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2313,7 +2313,7 @@
      "price_try": 119079.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2325,7 +2325,7 @@
      "price_try": 126171.67,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2337,7 +2337,7 @@
      "price_try": 129744.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2349,7 +2349,7 @@
      "price_try": 132550.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2361,7 +2361,7 @@
      "price_try": 134100.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2373,7 +2373,7 @@
      "price_try": 139265.59,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2393,7 +2393,7 @@
      "price_try": 132730.47,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2405,7 +2405,7 @@
      "price_try": 139437.65,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2417,7 +2417,7 @@
      "price_try": 150000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2429,7 +2429,7 @@
      "price_try": 150726.88,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2441,7 +2441,7 @@
      "price_try": 173149.49,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2453,7 +2453,7 @@
      "price_try": 134019.02,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2465,7 +2465,7 @@
      "price_try": 144408.91,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2485,7 +2485,7 @@
      "price_try": 154353.65,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2497,7 +2497,7 @@
      "price_try": 175281.07,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2509,7 +2509,7 @@
      "price_try": 155852.13,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2521,7 +2521,7 @@
      "price_try": 168124.19,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2533,7 +2533,7 @@
      "price_try": 171000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2545,7 +2545,7 @@
      "price_try": 182500.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2557,7 +2557,7 @@
      "price_try": 191663.39,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2569,7 +2569,7 @@
      "price_try": 200185.49,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2589,7 +2589,7 @@
      "price_try": 68349.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2601,7 +2601,7 @@
      "price_try": 61473.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2613,7 +2613,7 @@
      "price_try": 70744.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2625,7 +2625,7 @@
      "price_try": 75653.82,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2637,7 +2637,7 @@
      "price_try": 76056.9,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2649,7 +2649,7 @@
      "price_try": 76200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2661,7 +2661,7 @@
      "price_try": 77202.25,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2673,7 +2673,7 @@
      "price_try": 78474.33,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2693,7 +2693,7 @@
      "price_try": 74751.04,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2705,7 +2705,7 @@
      "price_try": 74799.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2717,7 +2717,7 @@
      "price_try": 75943.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2729,7 +2729,7 @@
      "price_try": 76644.31,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2741,7 +2741,7 @@
      "price_try": 84000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2753,7 +2753,7 @@
      "price_try": 86197.82,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2765,19 +2765,7 @@
      "price_try": 71200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
-     "stale": false
-    },
-    {
-     "store": "Robotistan",
-     "store_id": "robotistan",
-     "seller": "",
-     "title": "Creality K2 Plus CFS Multi Color 3D Printer",
-     "url": "https://www.robotistan.com/creality-k2-plus-cfs-multi-color-3d-printer-en",
-     "price_try": 75653.82,
-     "status": "out_of_stock",
-     "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2789,7 +2777,7 @@
      "price_try": 79560.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2801,7 +2789,7 @@
      "price_try": 88033.01,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2821,7 +2809,7 @@
      "price_try": 47178.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2833,7 +2821,7 @@
      "price_try": 49031.58,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2845,7 +2833,7 @@
      "price_try": 50122.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2857,7 +2845,7 @@
      "price_try": 50197.55,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2869,7 +2857,7 @@
      "price_try": 50874.12,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2881,7 +2869,7 @@
      "price_try": 51143.59,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -2901,7 +2889,7 @@
      "price_try": 20745.58,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2913,7 +2901,7 @@
      "price_try": 23542.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2925,7 +2913,7 @@
      "price_try": 23602.48,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2937,7 +2925,7 @@
      "price_try": 23700.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2949,7 +2937,7 @@
      "price_try": 23919.45,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2961,19 +2949,7 @@
      "price_try": 24301.73,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
-     "stale": false
-    },
-    {
-     "store": "Matersan",
-     "store_id": "matersan",
-     "seller": "",
-     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı R3D Kurutucu Bundle",
-     "url": "https://www.matersan.com.tr/urun/elegoo-centauri-carbon-2-combo-3d-yazici-r3d-kurutucu-bundle",
-     "price_try": 26789.05,
-     "status": "in_stock",
-     "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2985,7 +2961,7 @@
      "price_try": 29599.49,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -2997,7 +2973,7 @@
      "price_try": 24338.21,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3009,7 +2985,7 @@
      "price_try": 27499.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3021,7 +2997,27 @@
      "price_try": 28219.17,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Elegoo",
+   "model": "Centauri Carbon 2",
+   "variant": "Combo + Dryer Bundle",
+   "name": "Elegoo Centauri Carbon 2 Combo + Dryer Bundle",
+   "offers": [
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı R3D Kurutucu Bundle",
+     "url": "https://www.matersan.com.tr/urun/elegoo-centauri-carbon-2-combo-3d-yazici-r3d-kurutucu-bundle",
+     "price_try": 26789.05,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -3041,7 +3037,7 @@
      "price_try": 24172.09,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3053,7 +3049,7 @@
      "price_try": 26504.99,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3065,7 +3061,7 @@
      "price_try": 26564.64,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3077,7 +3073,7 @@
      "price_try": 27300.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3089,7 +3085,7 @@
      "price_try": 27440.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3101,7 +3097,7 @@
      "price_try": 27441.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3113,7 +3109,7 @@
      "price_try": 27643.22,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3125,7 +3121,7 @@
      "price_try": 28057.85,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3137,7 +3133,7 @@
      "price_try": 26818.79,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3149,7 +3145,7 @@
      "price_try": 27380.48,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3161,7 +3157,7 @@
      "price_try": 27540.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -3181,7 +3177,7 @@
      "price_try": 32494.45,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3193,19 +3189,7 @@
      "price_try": 33050.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
-     "stale": false
-    },
-    {
-     "store": "Matersan",
-     "store_id": "matersan",
-     "seller": "",
-     "title": "ELEGOO Saturn 4 Ultra 16K Bundle Set 2",
-     "url": "https://www.matersan.com.tr/urun/elegoo-saturn-4-ultra-16k-bundle",
-     "price_try": 38249.1,
-     "status": "in_stock",
-     "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3217,7 +3201,7 @@
      "price_try": 32000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3229,7 +3213,7 @@
      "price_try": 34200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3241,7 +3225,7 @@
      "price_try": 35238.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3253,7 +3237,7 @@
      "price_try": 36507.31,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     },
     {
@@ -3265,7 +3249,27 @@
      "price_try": 44726.72,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-25T11:00:16+00:00",
+     "checked_at": "2026-11-25T12:05:22+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Elegoo",
+   "model": "Saturn 4 Ultra 16K",
+   "variant": "Bundle 2",
+   "name": "Elegoo Saturn 4 Ultra 16K Bundle 2",
+   "offers": [
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Bundle Set 2",
+     "url": "https://www.matersan.com.tr/urun/elegoo-saturn-4-ultra-16k-bundle",
+     "price_try": 38249.1,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T12:05:22+00:00",
      "stale": false
     }
    ]
@@ -3359,7 +3363,7 @@
    },
    {
     "name": "Robotistan",
-    "offers": 20
+    "offers": 19
    },
    {
     "name": "Robotzade",
