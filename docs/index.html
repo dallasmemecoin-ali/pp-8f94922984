@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Printer Prices TR</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Printer Prices TR">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f4f7fb">
+<meta name="color-scheme" content="light">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<style>
+/* Layout: sticky header (rate + collection time + refresh), then one section
+   per brand; each printer version is a card listing every store offer. */
+:root {
+  color-scheme: light;
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --ink: #101828;
+  --ink-2: #4a5568;
+  --ink-3: #8491a5;
+  --line: #e2e8f1;
+  --blue: #0b63ce;
+  --blue-soft: #e6f0fd;
+  --green: #0f7a43;
+  --green-soft: #e2f5ea;
+  --amber: #96560a;
+  --amber-soft: #fdf0d9;
+  --grey-soft: #eef1f5;
+  --red: #b3261e;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.35 var(--font);
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 28px);
+  -webkit-tap-highlight-color: transparent;
+}
+a { color: inherit; text-decoration: none; }
+.wrap {
+  max-width: 640px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+header {
+  position: sticky; top: 0; z-index: 5;
+  background: rgba(244, 247, 251, .94);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+  padding-top: calc(env(safe-area-inset-top, 0px) + 10px);
+  padding-bottom: 10px;
+}
+.top { display: flex; align-items: center; gap: 12px; }
+.top h1 { flex: 1; min-width: 0; margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -.02em; }
+#refresh {
+  flex: none; display: inline-flex; align-items: center; gap: 7px;
+  border: 0; border-radius: 999px; background: var(--blue); color: #fff;
+  font: 600 15px var(--font); padding: 9px 15px; min-height: 40px; cursor: pointer;
+}
+#refresh:active { opacity: .8; }
+#refresh:focus-visible { outline: 3px solid var(--blue-soft); outline-offset: 2px; }
+#refresh svg { width: 16px; height: 16px; }
+#refresh.busy svg { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { #refresh.busy svg { animation: none; } }
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.fact { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 11px; min-width: 0; }
+.fact small { display: block; color: var(--ink-3); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+.fact b { display: block; font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.fact span { display: block; color: var(--ink-2); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#notice { margin-top: 8px; color: var(--red); font-size: 13px; }
+
+h2 {
+  margin: 26px 0 10px; font-size: 13px; font-weight: 700; color: var(--blue);
+  text-transform: uppercase; letter-spacing: .08em;
+}
+.model { background: var(--card); border: 1px solid var(--line); border-radius: 16px; margin-bottom: 12px; overflow: hidden; }
+.model h3 { margin: 0; padding: 13px 14px 10px; font-size: 18px; font-weight: 700; letter-spacing: -.01em; }
+.model h3 em { font-style: normal; font-weight: 500; color: var(--ink-2); }
+.offer {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px;
+  align-items: start; padding: 11px 14px; border-top: 1px solid var(--line);
+}
+.offer:active { background: var(--bg); }
+.store { font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.title { grid-column: 1; color: var(--ink-3); font-size: 12px; overflow-wrap: anywhere; }
+.old { grid-column: 1; color: var(--amber); font-size: 12px; }
+.prices { grid-row: 1 / span 3; grid-column: 2; text-align: right; font-variant-numeric: tabular-nums; }
+.try { font-size: 19px; font-weight: 700; letter-spacing: -.01em; white-space: nowrap; }
+.usd { font-size: 13px; color: var(--ink-2); white-space: nowrap; }
+.pill { display: inline-block; border-radius: 999px; font-size: 11px; font-weight: 700; padding: 2px 8px; white-space: nowrap; }
+.in_stock .pill.st { background: var(--green-soft); color: var(--green); }
+.pre_order .pill.st { background: var(--amber-soft); color: var(--amber); }
+.out_of_stock .pill.st, .unknown .pill.st { background: var(--grey-soft); color: var(--ink-2); }
+.pill.best { background: var(--blue); color: #fff; }
+.offer.best { background: var(--blue-soft); }
+.offer.out_of_stock .store, .offer.out_of_stock .try, .offer.out_of_stock .usd { color: var(--ink-3); }
+.offer.out_of_stock .try { font-weight: 600; }
+.status-row { grid-column: 1; margin-top: 3px; display: flex; gap: 6px; flex-wrap: wrap; }
+.none { padding: 0 14px 14px; color: var(--ink-3); font-size: 14px; }
+
+details { background: var(--card); border: 1px solid var(--line); border-radius: 16px; margin-top: 12px; padding: 0 14px; }
+summary { padding: 13px 0; font-weight: 600; font-size: 15px; cursor: pointer; }
+details ul { margin: 0; padding: 0 0 12px; list-style: none; font-size: 14px; }
+details li { padding: 7px 0; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 12px; }
+details li span { color: var(--ink-3); text-align: right; }
+footer { margin-top: 18px; color: var(--ink-3); font-size: 12px; }
+#empty { margin-top: 40px; text-align: center; color: var(--ink-2); }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>Printer Prices TR</h1>
+      <button id="refresh" type="button" aria-label="Refresh prices and exchange rate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 4v5h-5"/></svg>
+        Refresh
+      </button>
+    </div>
+    <div class="facts">
+      <div class="fact"><small>Exchange rate used</small><b id="rate">…</b><span id="rate-note">&nbsp;</span></div>
+      <div class="fact"><small>Prices last collected</small><b id="collected">…</b><span id="collected-note">&nbsp;</span></div>
+    </div>
+    <div id="notice" role="status" hidden></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="list"></div>
+  <p id="empty" hidden>No prices have been collected yet.</p>
+  <details id="covered" hidden><summary></summary><ul></ul></details>
+  <details id="missing" hidden><summary></summary><ul></ul></details>
+  <footer>Prices are the stores' current prices in Turkish lira, VAT included. Dollar amounts are converted here with the exchange rate shown above and are not store prices. Stores are read automatically once an hour.</footer>
+</main>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const STATUS = { in_stock: "In stock", pre_order: "Pre-order", out_of_stock: "Out of stock", unknown: "Stock not stated" };
+const fmtTry = new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const fmtUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+let data = null, rate = null;
+
+function esc(s) { return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+function ago(iso) {
+  const min = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  if (min < 1) return "just now";
+  if (min < 60) return min + " min ago";
+  const h = Math.floor(min / 60);
+  if (h < 48) return h + " h " + (min % 60) + " min ago";
+  return Math.floor(h / 24) + " days ago";
+}
+function clock(iso) {
+  const d = new Date(iso), today = new Date().toDateString() === d.toDateString();
+  const t = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  return today ? t : d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) + " " + t;
+}
+
+async function getText(url) {
+  const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 12000);
+  try {
+    const r = await fetch(url, { cache: "no-store", signal: ctl.signal });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return await r.text();
+  } finally { clearTimeout(timer); }
+}
+async function getJson(url) { return JSON.parse(await getText(url)); }
+
+// Live market rate straight from the phone; falls back to the rate saved
+// with the last hourly collection if no live source answers.
+async function liveRate() {
+  try {
+    // Read as text: this feed is sometimes not strictly valid JSON.
+    const t = await getText("https://finans.truncgil.com/v4/today.json");
+    const usd = (t.match(/"USD"\s*:\s*\{[^}]*\}/) || [""])[0];
+    const buy = Number((usd.match(/"Buying"\s*:\s*"?([\d.]+)/) || [])[1]);
+    const sell = Number((usd.match(/"Selling"\s*:\s*"?([\d.]+)/) || [])[1]);
+    const upd = (t.match(/"Update_Date"\s*:\s*"(\d{4}-\d\d-\d\d) (\d\d:\d\d:\d\d)"/) || []);
+    const v = (buy + sell) / 2;
+    if (v > 1 && v < 1000) {
+      const at = upd[1] ? new Date(upd[1] + "T" + upd[2] + "+03:00") : new Date();
+      return { usd_try: v, source: "live market rate", at: (isNaN(at) ? new Date() : at).toISOString(), live: true };
+    }
+  } catch (e) { /* handled by the caller */ }
+  return null;
+}
+async function dailyRate() {
+  try {
+    const d = await getJson("https://open.er-api.com/v6/latest/USD");
+    const v = Number(d.rates.TRY);
+    if (v > 1 && v < 1000) return { usd_try: v, source: "daily market rate", at: new Date(d.time_last_update_unix * 1000).toISOString(), live: false };
+  } catch (e) { /* fall through */ }
+  return null;
+}
+
+function render() {
+  if (!data) return;
+  const r = rate || data.rate;
+  $("rate").textContent = r ? "1 USD = " + r.usd_try.toFixed(4) + " TL" : "Not available";
+  $("rate-note").textContent = r ? (r.live ? "Live market rate, " + clock(r.at) : (r === rate ? "Daily market rate, " : "Saved market rate, ") + clock(r.at)) : "USD prices hidden";
+  $("collected").textContent = clock(data.collected_at);
+  $("collected-note").textContent = ago(data.collected_at);
+
+  let htmlOut = "", brand = "";
+  for (const m of data.models) {
+    if (m.brand !== brand) { brand = m.brand; htmlOut += "<h2>" + esc(brand) + "</h2>"; }
+    const live = m.offers.filter((o) => o.status !== "out_of_stock");
+    const gone = m.offers.filter((o) => o.status === "out_of_stock");
+    const inStock = m.offers.filter((o) => o.status === "in_stock");
+    const best = inStock.length ? inStock.reduce((a, b) => (b.price_try < a.price_try ? b : a)) : null;
+    htmlOut += '<section class="model"><h3>' + esc(m.brand + " " + m.model) + (m.variant ? " <em>" + esc(m.variant) + "</em>" : "") + "</h3>";
+    for (const o of live.concat(gone)) {
+      const usd = r ? fmtUsd.format(o.price_try / r.usd_try) : "";
+      const isBest = o === best && m.offers.length > 1;
+      htmlOut += '<a class="offer ' + o.status + (isBest ? " best" : "") + '" href="' + esc(o.url) + '" target="_blank" rel="noopener noreferrer">'
+        + '<div class="store">' + esc(o.store) + (o.seller ? " · " + esc(o.seller) : "") + "</div>"
+        + '<div class="prices"><div class="try">₺' + fmtTry.format(o.price_try) + '</div><div class="usd">' + usd + "</div></div>"
+        + '<div class="title">' + esc(o.title) + "</div>"
+        + '<div class="status-row"><span class="pill st">' + STATUS[o.status] + "</span>"
+        + (isBest ? '<span class="pill best">Cheapest in stock</span>' : "") + "</div>"
+        + (o.note ? '<div class="old">' + esc(o.note) + "</div>" : "")
+        + (o.stale ? '<div class="old">Store could not be read. Last read ' + esc(ago(o.checked_at)) + ".</div>" : "")
+        + "</a>";
+    }
+    htmlOut += "</section>";
+  }
+  $("list").innerHTML = htmlOut;
+  $("empty").hidden = data.models.length > 0;
+
+  const fill = (id, label, items, right) => {
+    const el = $(id);
+    el.hidden = !items.length;
+    el.querySelector("summary").textContent = label + " (" + items.length + ")";
+    el.querySelector("ul").innerHTML = items.map((s) => "<li>" + esc(s.name) + "<span>" + esc(right(s)) + "</span></li>").join("");
+  };
+  fill("covered", "Stores checked", data.stores.covered, (s) => s.offers ? s.offers + " offer" + (s.offers > 1 ? "s" : "") : "none of these printers");
+  fill("missing", "Stores that could not be read", data.stores.not_covered, (s) => s.reason);
+}
+
+async function refresh() {
+  const btn = $("refresh");
+  btn.classList.add("busy"); btn.disabled = true;
+  const problems = [];
+  const [prices, live] = await Promise.allSettled([getJson("data/prices.json?t=" + Date.now()), liveRate()]);
+  if (prices.status === "fulfilled") data = prices.value;
+  else problems.push(data ? "Could not load newer prices. Showing the ones already on screen." : "Could not load prices. Check your connection and tap Refresh.");
+  let fresh = live.status === "fulfilled" ? live.value : null;
+  if (!fresh) fresh = await liveRate();                 // the live feed is flaky: one retry
+  if (!fresh && !(data && data.rate)) fresh = await dailyRate();
+  rate = fresh;                                          // null = use the hourly saved rate
+  if (!fresh && data && data.rate) problems.push("Live exchange rate did not answer. Using the rate saved at " + clock(data.rate.at) + ".");
+  if (!fresh && !(data && data.rate)) problems.push("No exchange rate available, so dollar prices are hidden.");
+  $("notice").hidden = !problems.length;
+  $("notice").textContent = problems.join(" ");
+  render();
+  try { if (data) localStorage.setItem("pptr-data", JSON.stringify(data)); } catch (e) { /* storage off */ }
+  btn.classList.remove("busy"); btn.disabled = false;
+}
+
+$("refresh").addEventListener("click", refresh);
+document.addEventListener("visibilitychange", () => { if (!document.hidden && data && Date.now() - lastRun > 5 * 60000) run(); });
+let lastRun = 0;
+function run() { lastRun = Date.now(); return refresh(); }
+try { const saved = localStorage.getItem("pptr-data"); if (saved) { data = JSON.parse(saved); render(); } } catch (e) { /* ignore */ }
+run();
+</script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+[
+ {
+  "id": "robotistan",
+  "name": "Robotistan",
+  "base": "https://www.robotistan.com"
+ },
+ {
+  "id": "robo90",
+  "name": "Robo90",
+  "base": "https://www.robo90.com"
+ },
+ {
+  "id": "porima",
+  "name": "Porima 3D",
+  "base": "https://porima3d.com",
+  "platform": "shopify"
+ },
+ {
+  "id": "3dcim",
+  "name": "3DCim",
+  "base": "https://3dcim.com"
+ },
+ {
+  "id": "3dteknomarket",
+  "name": "3D Tekno Market",
+  "base": "https://www.3dteknomarket.com",
+  "platform": "shopify"
+ },
+ {
+  "id": "direnc",
+  "name": "Direnc.net",
+  "base": "https://www.direnc.net"
+ },
+ {
+  "id": "metatech",
+  "name": "MetatechTR (Bambu Lab distributor)",
+  "base": "https://store.metatechtr.com",
+  "price_re": "mt-native-gross-price.{0,160}?product-price\">\\s*([\\d.,]+)",
+  "instock_markers": [
+   "<option[^>]*data-type=\"Stoktan Teslim\"[^>]*data-stock=\"[1-9]"
+  ],
+  "preorder_markers": [
+   "<option[^>]*data-type=\"Ön Sipariş\"[^>]*data-stock=\"[1-9]"
+  ]
+ },
+ {
+  "id": "filamentmarketim",
+  "name": "FilamentMarketim",
+  "base": "https://www.filamentmarketim.com"
+ },
+ {
+  "id": "makerpazar",
+  "name": "Makerpazar",
+  "base": "https://makerpazar.com"
+ },
+ {
+  "id": "matersan",
+  "name": "Matersan",
+  "base": "https://www.matersan.com.tr"
+ },
+ {
+  "id": "robolinkmarket",
+  "name": "Robolink Market",
+  "base": "https://www.robolinkmarket.com"
+ },
+ {
+  "id": "robotzade",
+  "name": "Robotzade",
+  "base": "https://www.robotzade.com"
+ },
+ {
+  "id": "motorobit",
+  "name": "Motorobit",
+  "base": "https://www.motorobit.com"
+ },
+ {
+  "id": "f1depo",
+  "name": "F1Depo",
+  "base": "https://www.f1depo.com"
+ },
+ {
+  "id": "samm",
+  "name": "SAMM Market",
+  "base": "https://samm.com"
+ },
+ {
+  "id": "voltaj",
+  "name": "Voltaj",
+  "base": "https://www.voltaj.com.tr"
+ },
+ {
+  "id": "elektrovadi",
+  "name": "Elektrovadi",
+  "base": "https://www.elektrovadi.com"
+ },
+ {
+  "id": "ucboyut",
+  "name": "Ucboyut",
+  "base": "https://www.ucboyut.com"
+ },
+ {
+  "id": "depo3d",
+  "name": "Depo3D",
+  "base": "https://depo3d.com"
+ },
+ {
+  "id": "boyutkat",
+  "name": "Boyutkat",
+  "base": "https://www.boyutkat.com"
+ },
+ {
+  "id": "teknodurak",
+  "name": "Teknodurak",
+  "base": "https://www.teknodurak.com"
+ },
+ {
+  "id": "abgteknoloji",
+  "name": "ABG Teknoloji",
+  "base": "https://www.abgteknoloji.com"
+ },
+ {
+  "id": "3dpazar",
+  "name": "3DPazar",
+  "base": "https://www.3dpazar.com"
+ },
+ {
+  "id": "filameon",
+  "name": "Filameon",
+  "base": "https://www.filameon.com"
+ },
+ {
+  "id": "gaming",
+  "name": "Gaming.gen.tr",
+  "base": "https://www.gaming.gen.tr"
+ },
+ {
+  "id": "botech",
+  "name": "Botech",
+  "base": "https://www.botech.com.tr"
+ },
+ {
+  "id": "3dprinterdunyasi",
+  "name": "3D Printer Dünyası",
+  "base": "https://3dprinterdunyasi.com"
+ },
+ {
+  "id": "trendyol",
+  "name": "Trendyol",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "hepsiburada",
+  "name": "Hepsiburada",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "n11",
+  "name": "N11",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "ciceksepeti",
+  "name": "Çiçeksepeti",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "pazarama",
+  "name": "Pazarama",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "pttavm",
+  "name": "PttAVM",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "teknosa",
+  "name": "Teknosa",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "incehesap",
+  "name": "İncehesap",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "itopya",
+  "name": "İtopya",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "sinerji",
+  "name": "Sinerji",
+  "base": "",
+  "blocked": "answers automated reading with a bot check"
+ },
+ {
+  "id": "koctas",
+  "name": "Koçtaş",
+  "base": "",
+  "blocked": "refuses automated reading (access denied)"
+ },
+ {
+  "id": "vatan",
+  "name": "Vatan Bilgisayar",
+  "base": "",
+  "blocked": "refuses automated reading (HTTP 403)"
+ },
+ {
+  "id": "mediamarkt",
+  "name": "MediaMarkt",
+  "base": "",
+  "blocked": "does not answer automated requests"
+ },
+ {
+  "id": "amazon",
+  "name": "Amazon.com.tr",
+  "base": "",
+  "blocked": "automated search returned none of these printers"
+ },
+ {
+  "id": "3dyaziciturkiye",
+  "name": "3D Yazıcı Türkiye",
+  "base": "",
+  "blocked": "prices only load inside a full browser"
+ },
+ {
+  "id": "idefix",
+  "name": "idefix",
+  "base": "",
+  "blocked": "search is closed to automated reading"
+ }
+]

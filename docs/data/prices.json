@@ -1,0 +1,3452 @@
+{
+ "collected_at": "2026-11-25T10:06:43+00:00",
+ "rate": {
+  "usd_try": 50.6775,
+  "source": "Truncgil Finans",
+  "at": "2026-11-25T10:12:37+00:00"
+ },
+ "models": [
+  {
+   "brand": "Bambu Lab",
+   "model": "X2D",
+   "variant": "",
+   "name": "Bambu Lab X2D",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab X2D 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-x2d-3d-printer",
+     "price_try": 35287.67,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab X2D 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-x2d-3d-yazici",
+     "price_try": 37552.85,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "BambuLab X2D 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambulab-x2d-3d-yazici",
+     "price_try": 43135.5,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab X2D 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-x2d-3d-yazici",
+     "price_try": 43139.47,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab X2D 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-x2d-3d-yazici",
+     "price_try": 44400.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "X2D",
+   "variant": "Combo",
+   "name": "Bambu Lab X2D Combo",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab X2D Combo 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-x2d-combo-3d-printer",
+     "price_try": 48176.12,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab X2D AMS Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-x2d-ams-combo-3d-yazici",
+     "price_try": 48643.77,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "BAMBU LAB X2D Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-x2d-combo-3d-yazici",
+     "price_try": 49690.51,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab X2D Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-x2d-combo-3d-yazici",
+     "price_try": 50730.0,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab X2D AMS Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-x2d-ams-combo-3d-yazici",
+     "price_try": 51420.63,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab X2D Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-x2d-combo-3d-yazici",
+     "price_try": 53699.74,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab X2D AMS Combo 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-x2d-ams-combo-3d-yazici",
+     "price_try": 50233.73,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab X2D Combo",
+     "url": "https://makerpazar.com/bambu-lab-x2d-combo",
+     "price_try": 51894.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab X2D Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-x2d-combo-3d-yazici",
+     "price_try": 51900.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab X2D Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambu-lab-x2d-combo-3d-yazici",
+     "price_try": 60740.62,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "A2L",
+   "variant": "",
+   "name": "Bambu Lab A2L",
+   "offers": [
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-a2l-3d-yazici",
+     "price_try": 21571.9,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-a2l-3d-printer",
+     "price_try": 22932.54,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-a2l-3d-yazici",
+     "price_try": 24084.69,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-a2l-3d-yazici",
+     "price_try": 24301.5,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-a2l-3d-yazici",
+     "price_try": 24351.69,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab A2L",
+     "url": "https://makerpazar.com/bambu-lab-a2l",
+     "price_try": 24599.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-a2l-3d-yazici",
+     "price_try": 25200.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-a2l-3d-yazici",
+     "price_try": 25441.64,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-a2l-3d-yazici",
+     "price_try": 26010.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-a2l-3d-yazici",
+     "price_try": 23155.22,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab A2L 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-a2l-3d-yazici",
+     "price_try": 24449.99,
+     "status": "out_of_stock",
+     "note": "Store page mentions pre-order, but it cannot be ordered now.",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "A2L",
+   "variant": "Combo",
+   "name": "Bambu Lab A2L Combo",
+   "offers": [
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 27202.46,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-a2l-combo-3d-printer",
+     "price_try": 29421.21,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 29706.59,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 30883.5,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-a2l-combo",
+     "price_try": 31031.22,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 31286.95,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 32640.21,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 33017.4,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo",
+     "url": "https://makerpazar.com/bambu-lab-a2l-combo",
+     "price_try": 30941.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 32400.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 32639.99,
+     "status": "out_of_stock",
+     "note": "Store page mentions pre-order, but it cannot be ordered now.",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab A2L Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambu-lab-a2l-combo-3d-yazici",
+     "price_try": 34955.76,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "P1P",
+   "variant": "",
+   "name": "Bambu Lab P1P",
+   "offers": [
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab P1p 3d Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-p1p-3d-yazici",
+     "price_try": 25000.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-p1p-3d-yazici",
+     "price_try": 26154.59,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-p1p-3d-printer",
+     "price_try": 26911.89,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-p1p-3d-yazici",
+     "price_try": 28088.8,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Yazıcı",
+     "url": "https://3dcim.com/bambulab-p1p-720",
+     "price_try": 28245.7,
+     "status": "out_of_stock",
+     "note": "Store page mentions pre-order, but it cannot be ordered now.",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-p1p-3d-yazici",
+     "price_try": 30422.76,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-p1p-3d-yazici",
+     "price_try": 34023.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab P1P 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-p1p-3d-yazici",
+     "price_try": 35213.26,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "P1S",
+   "variant": "",
+   "name": "Bambu Lab P1S",
+   "offers": [
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-p1s-3d-yazici",
+     "price_try": 22773.06,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-p1s-3d-printers",
+     "price_try": 22932.54,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-p1s-3d-yazici",
+     "price_try": 24338.21,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-p1s-3d-yazici",
+     "price_try": 24849.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab P1S",
+     "url": "https://makerpazar.com/bambu-lab-p1s",
+     "price_try": 25240.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-p1s-3d-yazici",
+     "price_try": 25500.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-p1s-3d-yazici",
+     "price_try": 25681.69,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-p1s-3d-yazici",
+     "price_try": 23155.22,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-p1s-719",
+     "price_try": 24659.94,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab P1s 3d Printer",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-p1s-3d-printer",
+     "price_try": 25999.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambu-lab-p1s-3d-yazici",
+     "price_try": 27462.16,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-p1s-3d-yazici",
+     "price_try": 32130.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "P1S",
+   "variant": "AMS 2 Pro Combo",
+   "name": "Bambu Lab P1S AMS 2 Pro Combo",
+   "offers": [
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab P1S AMS 2 Pro Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-p1s-ams-2-pro-combo-3d-yazici",
+     "price_try": 40194.6,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab P1S 3D Yazıcı + Bambu Lab AMS 2 Pro",
+     "url": "https://porima3d.com/products/bambu-lab-p1s-3d-yazici-bambu-lab-ams-2-pro",
+     "price_try": 41856.25,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo AMS 2 Pro 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-p1s-combo-ams-2-pro",
+     "price_try": 44538.92,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab P1S AMS 2 Pro 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-p1s-ams-2-pro-3d-yazici",
+     "price_try": 45687.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "P1S",
+   "variant": "Combo",
+   "name": "Bambu Lab P1S Combo",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Printer (AMS üniteli)",
+     "url": "https://store.metatechtr.com/bambu-lab-p1s-3d-printer-combo-with-ams",
+     "price_try": 30843.38,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 31142.66,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 31785.02,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 32196.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 32957.99,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 34702.65,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 34800.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambulab-p1s-combo-718",
+     "price_try": 32655.45,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-p1s-3d-printer-combo-with-ams",
+     "price_try": 34999.99,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 37454.4,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo",
+     "url": "https://makerpazar.com/bambu-lab-p1s-combo",
+     "price_try": 37894.9,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab P1S Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambu-lab-p1s-combo-3d-yazici",
+     "price_try": 38425.07,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "P2S",
+   "variant": "",
+   "name": "Bambu Lab P2S",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-p2s-3d-printer",
+     "price_try": 29421.21,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-p2s-3d-yazici",
+     "price_try": 31115.52,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-p2s",
+     "price_try": 35746.74,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-p2s-3d-yazici",
+     "price_try": 29706.59,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab P2S",
+     "url": "https://makerpazar.com/bambu-lab-p2s",
+     "price_try": 31479.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-p2s-3d-yazici",
+     "price_try": 31744.86,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-p2s-3d-yazici",
+     "price_try": 33102.13,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-p2s-3d-yazici",
+     "price_try": 33999.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-p2s-3d-yazici",
+     "price_try": 35736.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab P2S - 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambu-lab-p2s-3d-yazici",
+     "price_try": 37645.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab P2S 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-p2s-3d-yazici",
+     "price_try": 37800.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "P2S",
+   "variant": "Combo",
+   "name": "Bambu Lab P2S Combo",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-p2s-combo-3d-printer",
+     "price_try": 39287.53,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 39668.9,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 42353.71,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-p2s-combo",
+     "price_try": 43605.96,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 43800.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 44203.22,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo",
+     "url": "https://www.robotistan.com/bambulab-p2s-combo",
+     "price_try": 50634.24,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 41236.82,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 41667.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 46095.99,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo",
+     "url": "https://makerpazar.com/bambu-lab-p2s-combo",
+     "price_try": 48872.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab P2S Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-p2s-combo-3d-yazici",
+     "price_try": 48960.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D Pro",
+   "variant": "",
+   "name": "Bambu Lab H2D Pro",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D Pro 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-pro-3d-printer",
+     "price_try": 212532.1,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2D Pro 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2d-pro-3d-yazici",
+     "price_try": 224665.41,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D Pro",
+   "variant": "Combo",
+   "name": "Bambu Lab H2D Pro Combo",
+   "offers": [
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2D AMS Pro 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2d-ams-pro-3d-yazici",
+     "price_try": 206342.43,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "BambuLab H2D Pro AMS Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambulab-h2d-pro-ams-combo-3d-yazici",
+     "price_try": 213247.49,
+     "status": "out_of_stock",
+     "note": "Store page mentions pre-order, but it cannot be ordered now.",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2D AMS Pro 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2d-ams-pro-3d-yazici",
+     "price_try": 219000.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "BambuLab H2D Pro AMS Combo",
+     "url": "https://3dcim.com/bambulab-h2d-pro-ams-combo-2425",
+     "price_try": 220717.41,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2D Pro AMS Combo",
+     "url": "https://www.robotistan.com/bambulab-h2d-pro-ams2-pro-combo",
+     "price_try": 226189.42,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D",
+   "variant": "",
+   "name": "Bambu Lab H2D",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-3d-printer",
+     "price_try": 88481.05,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2d-3d-yazici",
+     "price_try": 92890.83,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2d-3d-yazici",
+     "price_try": 98625.14,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2d-3d-yazici",
+     "price_try": 89339.93,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2d-3d-yazici",
+     "price_try": 90245.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-h2d-3d-printer",
+     "price_try": 94603.67,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "BambuLab H2D 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambulab-h2d-3d-yazici",
+     "price_try": 95385.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2D 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambulab-h2d-3d-yazici",
+     "price_try": 108094.25,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D",
+   "variant": "Combo",
+   "name": "Bambu Lab H2D Combo",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-combo-3d-printer",
+     "price_try": 101171.21,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2D AMS Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2d-ams-combo-3d-yazici",
+     "price_try": 102153.35,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-h2d-combo-3d-printer",
+     "price_try": 103381.07,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2D Ams Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2d-combo",
+     "price_try": 103437.38,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2d-combo-3d-yazici",
+     "price_try": 106320.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambulab-h2d-combo-3d-yazici",
+     "price_try": 107914.8,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2D AMS Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2d-ams-combo-3d-yazici",
+     "price_try": 108000.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2d-combo-3d-yazici",
+     "price_try": 112770.11,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2D AMS Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2d-ams-combo-3d-yazici",
+     "price_try": 115563.99,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo",
+     "url": "https://makerpazar.com/bambu-lab-h2d-combo-3d-yazici",
+     "price_try": 115794.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab H2D AMS Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-h2d-ams-combo-3d-yazici-1",
+     "price_try": 116280.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D",
+   "variant": "Combo + AMS HT",
+   "name": "Bambu Lab H2D Combo + AMS HT",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo AMS HT Bundle 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-combo-ams-ht-bundle3d-printer",
+     "price_try": 108464.52,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D",
+   "variant": "Combo + Dual AMS 2 Pro",
+   "name": "Bambu Lab H2D Combo + Dual AMS 2 Pro",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo Dual AMS 2 Pro Bundle 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-combo-dual-ams-2-pro-bundle-3dprinter",
+     "price_try": 115431.23,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab H2D Combo Dual AMS 2 Pro Bundle 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-h2d-ams-combo-3d-yazici",
+     "price_try": 180540.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D",
+   "variant": "Laser Full Combo 10W",
+   "name": "Bambu Lab H2D Laser Full Combo 10W",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Combo 3D Printer 10W",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-laser-combo-3d-printer-10w",
+     "price_try": 123225.84,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo - 10W Lazer",
+     "url": "https://www.robotistan.com/bambulab-h2d-laser-full-combo-10w-lazer",
+     "price_try": 131347.73,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2d-laser-full-combo-10w-3d-yazici",
+     "price_try": 132000.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2d-laser-full-combo-10w-3d-yazici",
+     "price_try": 135127.76,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2d-laser-full-combo-10w-3d-yazici",
+     "price_try": 137353.62,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2d-laser-full-combo-10w-3d-yazici",
+     "price_try": 124422.37,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Combo 3D Yazıcı 10W",
+     "url": "https://3dcim.com/bambu-lab-h2d-laser-combo-3d-printer-10w",
+     "price_try": 131506.38,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2D Lazer Full Combo 10W 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2d-lazer-full-combo-10w-3d-yazici",
+     "price_try": 144444.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2d-laser-full-combo-3d-yazici",
+     "price_try": 158206.45,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2D",
+   "variant": "Laser Full Combo 40W",
+   "name": "Bambu Lab H2D Laser Full Combo 40W",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Combo 3D Printer 40W",
+     "url": "https://store.metatechtr.com/bambu-lab-h2d-laser-combo-3d-printer-40w",
+     "price_try": 145455.5,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2D Lazer Full Combo 40W 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2d-lazer-full-combo-40w-3d-yazici",
+     "price_try": 168000.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 40W 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2d-laser-full-combo-40w-3d-yazici",
+     "price_try": 168846.32,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 40W 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2d-laser-full-combo-40w-3d-yazici",
+     "price_try": 146867.85,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Combo 3D Yazıcı 40W",
+     "url": "https://3dcim.com/bambu-lab-h2d-laser-combo-3d-printer-40w",
+     "price_try": 155063.76,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 40W 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2d-laser-full-combo-40w-3d-yazici",
+     "price_try": 162131.7,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab H2D Lazer Full Combo 40W",
+     "url": "https://makerpazar.com/bambu-lab-h2d-lazer-full-combo-40w",
+     "price_try": 174319.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2D Laser Full Combo 40W 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2d-laser-full-combo-40w-3d-yazici",
+     "price_try": 197777.61,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2D Lazer Full Combo 40W 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2d-lazer-full-combo-40w-3d-yazici",
+     "price_try": 209602.49,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2S",
+   "variant": "",
+   "name": "Bambu Lab H2S",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2s-3d-printer",
+     "price_try": 64175.57,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2s-3d-yazici",
+     "price_try": 64798.43,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Printer",
+     "url": "https://3dcim.com/bambu-lab-h2s-3d-printer",
+     "price_try": 68445.05,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2s-3d-yazici",
+     "price_try": 71197.37,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2s-3d-yazici",
+     "price_try": 76246.5,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambulab-h2s-3d-yazici",
+     "price_try": 77625.27,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2S 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2s-3d-yazici",
+     "price_try": 80366.79,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2S",
+   "variant": "Combo",
+   "name": "Bambu Lab H2S Combo",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2S Combo 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2s-combo-3d-printer",
+     "price_try": 73864.12,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2s-ams-combo-3d-yazici",
+     "price_try": 74580.95,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2s-ams-combo-3d-yazici",
+     "price_try": 77664.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-h2s-ams-combo-3d-yazici",
+     "price_try": 78751.15,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2S Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2s-combo-3d-yazici",
+     "price_try": 79099.18,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2s-ams-combo-3d-yazici",
+     "price_try": 81600.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2S Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2s-combo-3d-yazici",
+     "price_try": 82332.32,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambulab-h2s-ams-combo-3d-yazici",
+     "price_try": 88824.98,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2s-ams-combo-3d-yazici",
+     "price_try": 84159.99,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab H2S Combo",
+     "url": "https://makerpazar.com/bambu-lab-h2s-combo",
+     "price_try": 90944.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab H2S AMS Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-h2s-ams-combo-3d-yazici",
+     "price_try": 91800.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2S",
+   "variant": "Laser Full Combo 10W",
+   "name": "Bambu Lab H2S Laser Full Combo 10W",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2S Laser Combo 3D Printer 10W",
+     "url": "https://store.metatechtr.com/bambu-lab-h2s-laser-combo-3d-printer",
+     "price_try": 96263.35,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2S Full Combo - 10W Lazer",
+     "url": "https://www.robotistan.com/bambulab-h2s-full-combo-10w-lazer",
+     "price_try": 102981.55,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2S 10W Lazer Full Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2s-10w-lazer-full-combo-3d-yazici",
+     "price_try": 103200.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab H2S Lazer Full Combo 10W 3D Yazıcı",
+     "url": "https://makerpazar.com/bambu-lab-h2s-lazer-full-combo-10w-3d-yazici",
+     "price_try": 105979.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2S Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2s-laser-full-combo-10w-3d-yazici",
+     "price_try": 107299.92,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2S Full Combo - 10W Laser 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambulab-h2s-full-combo-10w-laser-3d-yazici",
+     "price_try": 136902.42,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2S Lazer Full Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2s-lazer-full-combo-3d-yazici",
+     "price_try": 97197.92,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2S Lazer Full Combo 10W 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2s-lazer-full-combo-10w-3d-yazici",
+     "price_try": 101257.5,
+     "status": "out_of_stock",
+     "note": "Store page mentions pre-order, but it cannot be ordered now.",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "BambuLab H2S Full Combo - 10W Laser",
+     "url": "https://3dcim.com/bambulab-h2s-full-combo-10w-laser-2336",
+     "price_try": 102966.9,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2C",
+   "variant": "Combo",
+   "name": "Bambu Lab H2C Combo",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2C AMS Combo 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2c-ams-combo-3d-printer",
+     "price_try": 111107.28,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.direnc.net/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 114095.16,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 120000.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 112185.92,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-h2c-combo-3d-yazici-2412",
+     "price_try": 115331.95,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2C AMS Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2c-ams-combo",
+     "price_try": 116620.58,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 119079.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 126171.67,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 129744.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo",
+     "url": "https://makerpazar.com/bambu-lab-h2c-combo",
+     "price_try": 132550.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2c-combo-3d-yazici",
+     "price_try": 134100.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Bambu Lab H2C Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/bambulab-h2c-combo-3d-yazici",
+     "price_try": 139265.59,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2C",
+   "variant": "Laser Full Combo 10W",
+   "name": "Bambu Lab H2C Laser Full Combo 10W",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser Full Combo 10W 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2c-laser-full-combo-10w-3d-printer",
+     "price_try": 132730.47,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2C Full Combo 3D Yazıcı - 10W",
+     "url": "https://www.filamentmarketim.com/bambu-lab-h2c-full-combo-10w",
+     "price_try": 139437.65,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 10W Full Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2c-laser-10w-full-combo-3d-yazici",
+     "price_try": 150000.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser Full Combo 10W 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2c-laser-full-combo-10w-3d-yazici",
+     "price_try": 150726.88,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2C Lazer Full Combo 10W 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2c-lazer-full-combo-10w-3d-yazici",
+     "price_try": 173149.49,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 10W Full Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2c-laser-10w-full-combo-3d-yazici",
+     "price_try": 134019.02,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 10W Full Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-h2c-laser-10w-full-combo-3d-yazici",
+     "price_try": 144408.91,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Bambu Lab",
+   "model": "H2C",
+   "variant": "Laser Full Combo 40W",
+   "name": "Bambu Lab H2C Laser Full Combo 40W",
+   "offers": [
+    {
+     "store": "MetatechTR (Bambu Lab distributor)",
+     "store_id": "metatech",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser Full Combo 40W 3D Printer",
+     "url": "https://store.metatechtr.com/bambu-lab-h2c-laser-full-combo-40w-3d-printer",
+     "price_try": 154353.65,
+     "status": "pre_order",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser Full Combo 40W 3D Yazıcı",
+     "url": "https://porima3d.com/products/bambu-lab-h2c-laser-full-combo-40w-3d-yazici",
+     "price_try": 175281.07,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 40W Full Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/bambu-lab-h2c-laser-40w-full-combo-3d-yazici",
+     "price_try": 155852.13,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 40W Full Combo 3D Yazıcı",
+     "url": "https://3dcim.com/bambu-lab-h2c-laser-40w-full-combo-3d-yazici",
+     "price_try": 168124.19,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 40W Full Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/bambu-lab-h2c-laser-40w-full-combo-3d-yazici",
+     "price_try": 171000.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser 40W Full Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/bambu-lab-h2c-laser-40w-full-combo-3d-yazici",
+     "price_try": 182500.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Bambu Lab H2C Laser Full Combo 3D Yazıcı - 40W",
+     "url": "https://www.filamentmarketim.com/bambulab-h2c-laser-full-combo-40w",
+     "price_try": 191663.39,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Bambu Lab H2C Lazer Full Combo 40W 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/bambu-lab-h2c-lazer-full-combo-40w-3d-yazici",
+     "price_try": 200185.49,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Creality",
+   "model": "K2 Plus",
+   "variant": "",
+   "name": "Creality K2 Plus",
+   "offers": [
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Creality K2 Plus 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/creality-k2-plus-3d-yazici-rlxa07-8526",
+     "price_try": 68349.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Creality K2 Plus 3d Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/creality-k2-plus-3d-yazici",
+     "price_try": 61473.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Creality K2 Plus",
+     "url": "https://makerpazar.com/creality-k2-plus",
+     "price_try": 70744.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Creality K2 Plus 3D Yazıcı",
+     "url": "https://www.robotistan.com/creality-k2-plus-3d-yazici",
+     "price_try": 75653.82,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Creality K2 Plus 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/creality-k2-plus-3d-yazici",
+     "price_try": 76056.9,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Creality K2 Plus 3D Yazıcı",
+     "url": "https://www.robo90.com/creality-k2-plus-3d-yazici",
+     "price_try": 76200.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Creality K2 Plus 3D Yazıcı",
+     "url": "https://porima3d.com/products/creality-k2-plus-3d-yazici",
+     "price_try": 77202.25,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Creality K2 Plus 3D Yazıcı",
+     "url": "https://3dcim.com/creality-k2-plus-1263",
+     "price_try": 78474.33,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Creality",
+   "model": "K2 Plus",
+   "variant": "Combo",
+   "name": "Creality K2 Plus Combo",
+   "offers": [
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/creality-k2-plus-combo-3d-yazici",
+     "price_try": 74751.04,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Creality K2 Plus Combo",
+     "url": "https://makerpazar.com/creality-k2-plus-combo",
+     "price_try": 74799.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/creality-k2-plus-combo-3d-yazici-rlxa03-7539",
+     "price_try": 75943.5,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/creality-k2-plus-combo-3d-yazici",
+     "price_try": 76644.31,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/creality-k2-plus-combo-3d-yazici",
+     "price_try": 84000.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/creality-k2-plus-combo-3d-yazici",
+     "price_try": 86197.82,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3d Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/creality-k2-plus-combo-3d-yazici",
+     "price_try": 71200.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Creality K2 Plus CFS Multi Color 3D Printer",
+     "url": "https://www.robotistan.com/creality-k2-plus-cfs-multi-color-3d-printer-en",
+     "price_try": 75653.82,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/creality-k2-plus-combo-3d-yazici",
+     "price_try": 79560.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Creality K2 Plus Combo 3D Yazıcı",
+     "url": "https://3dcim.com/creality-k2-plus-combo-1262",
+     "price_try": 88033.01,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Creality",
+   "model": "Ender-5 Max",
+   "variant": "",
+   "name": "Creality Ender-5 Max",
+   "offers": [
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Creality Ender-5 Max",
+     "url": "https://makerpazar.com/creality-ender-5-max",
+     "price_try": 47178.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "Creality Ender-5 Max 3D Yazıcı",
+     "url": "https://porima3d.com/products/creality-ender-5-max-3d-yazici",
+     "price_try": 49031.58,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "Creality Ender-5 Max 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/creality-ender-5-max-3d-yazici",
+     "price_try": 50122.5,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Creality Ender 5 Max 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/creality-ender-5-max-3d-yazici",
+     "price_try": 50197.55,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Creality Ender 5 Max",
+     "url": "https://www.robotistan.com/creality-ender-5-max",
+     "price_try": 50874.12,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "Creality Ender-5 Max 3D Yazıcı",
+     "url": "https://3dcim.com/creality-ender-5-max-3d-yazici",
+     "price_try": 51143.59,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Elegoo",
+   "model": "Centauri Carbon 2",
+   "variant": "Combo",
+   "name": "Elegoo Centauri Carbon 2 Combo",
+   "offers": [
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.direnc.net/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 20745.58,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 23542.5,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 23602.48,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.robo90.com/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 23700.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://porima3d.com/products/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 23919.45,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 24301.73,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı R3D Kurutucu Bundle",
+     "url": "https://www.matersan.com.tr/urun/elegoo-centauri-carbon-2-combo-3d-yazici-r3d-kurutucu-bundle",
+     "price_try": 26789.05,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.robotistan.com/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 29599.49,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Elegoo Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://www.filamentmarketim.com/elegoo-centauri-carbon-2-combo",
+     "price_try": 24338.21,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo",
+     "url": "https://makerpazar.com/elegoo-centauri-carbon-2-combo-3d-yazici",
+     "price_try": 27499.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
+     "url": "https://3dcim.com/elegoo-centauri-carbon-2-combo-3d-yazici-2715",
+     "price_try": 28219.17,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Elegoo",
+   "model": "Saturn 4 Ultra 16K",
+   "variant": "",
+   "name": "Elegoo Saturn 4 Ultra 16K",
+   "offers": [
+    {
+     "store": "Direnc.net",
+     "store_id": "direnc",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Reçineli MSLA 3D Yazıcı",
+     "url": "https://www.direnc.net/elegoo-saturn-4-ultra-16k-recineli-msla-3d-yazici",
+     "price_try": 24172.09,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "Elegoo Saturn 4 Ultra 16K 3D Yazıcı",
+     "url": "https://www.matersan.com.tr/urun/elegoo-saturn-4-ultra-16k-3d-yazici",
+     "price_try": 26504.99,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Reçine 3D Yazıcı",
+     "url": "https://3dcim.com/elegoo-saturn-4-ultra-16k-3d-yazici",
+     "price_try": 26564.64,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K SLA 3D Yazıcı",
+     "url": "https://www.robo90.com/elegoo-saturn-4-ultra-16k-3d-yazici",
+     "price_try": 27300.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Makerpazar",
+     "store_id": "makerpazar",
+     "seller": "",
+     "title": "Elegoo Saturn 4 Ultra 16K",
+     "url": "https://makerpazar.com/elegoo-saturn-4-ultra-16k",
+     "price_try": 27440.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K 3D Yazıcı",
+     "url": "https://www.robolinkmarket.com/elegoo-saturn-4-ultra-16k-3d-yazici",
+     "price_try": 27441.0,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K 3D Yazıcı",
+     "url": "https://www.3dteknomarket.com/products/elegoo-saturn-4-ultra-16k-3d-yazici",
+     "price_try": 27643.22,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotistan",
+     "store_id": "robotistan",
+     "seller": "",
+     "title": "Elegoo Saturn 4 Ultra 16K 3D Yazıcı",
+     "url": "https://www.robotistan.com/elegoo-saturn-4-ultra-16k-3d-yazici",
+     "price_try": 28057.85,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Reçine 3D Yazıcı",
+     "url": "https://porima3d.com/products/elegoo-saturn-4-ultra-16k-recine-3d-yazici",
+     "price_try": 26818.79,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Elegoo Saturn 4 Ultra 16K Yazıcı",
+     "url": "https://www.filamentmarketim.com/elegoo-saturn-4-ultra-16k-yazici",
+     "price_try": 27380.48,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robotzade",
+     "store_id": "robotzade",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K 3D Yazıcı",
+     "url": "https://www.robotzade.com/urun/elegoo-saturn-4-ultra-16k-3d-yazici-1",
+     "price_try": 27540.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  },
+  {
+   "brand": "Elegoo",
+   "model": "Saturn 4 Ultra 16K",
+   "variant": "Bundle",
+   "name": "Elegoo Saturn 4 Ultra 16K Bundle",
+   "offers": [
+    {
+     "store": "3D Tekno Market",
+     "store_id": "3dteknomarket",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K & Mercury Bundle",
+     "url": "https://www.3dteknomarket.com/products/elegoo-saturn-4-ultra-16k-mercury-bundle",
+     "price_try": 32494.45,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Bundle Set",
+     "url": "https://www.matersan.com.tr/urun/elegoo-saturn-4-ultra-16k-bundle-1",
+     "price_try": 33050.5,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Matersan",
+     "store_id": "matersan",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Bundle Set 2",
+     "url": "https://www.matersan.com.tr/urun/elegoo-saturn-4-ultra-16k-bundle",
+     "price_try": 38249.1,
+     "status": "in_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Porima 3D",
+     "store_id": "porima",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Bundle",
+     "url": "https://porima3d.com/products/elegoo-saturn-4-ultra-16k-bundle",
+     "price_try": 32000.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robo90",
+     "store_id": "robo90",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K & Mercury Bundle",
+     "url": "https://www.robo90.com/elegoo-saturn-4-ultra-16k-mercury-bundle",
+     "price_try": 34200.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "Robolink Market",
+     "store_id": "robolinkmarket",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K - ELEGOO Mercury Bundle",
+     "url": "https://www.robolinkmarket.com/elegoo-saturn-4-ultra-16k-elegoo-mercury-bundle",
+     "price_try": 35238.0,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "FilamentMarketim",
+     "store_id": "filamentmarketim",
+     "seller": "",
+     "title": "Elegoo Saturn 4 Ultra 16K & Mercury Bundle",
+     "url": "https://www.filamentmarketim.com/elegoo-saturn-4-ultra-16k-mercury-bundle",
+     "price_try": 36507.31,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    },
+    {
+     "store": "3DCim",
+     "store_id": "3dcim",
+     "seller": "",
+     "title": "ELEGOO Saturn 4 Ultra 16K Bundle",
+     "url": "https://3dcim.com/elegoo-saturn-4-ultra-16k-bundle-2310",
+     "price_try": 44726.72,
+     "status": "out_of_stock",
+     "note": "",
+     "checked_at": "2026-11-25T10:06:43+00:00",
+     "stale": false
+    }
+   ]
+  }
+ ],
+ "stores": {
+  "covered": [
+   {
+    "name": "3D Tekno Market",
+    "offers": 22
+   },
+   {
+    "name": "3DCim",
+    "offers": 27
+   },
+   {
+    "name": "3DPazar",
+    "offers": 0
+   },
+   {
+    "name": "ABG Teknoloji",
+    "offers": 0
+   },
+   {
+    "name": "Botech",
+    "offers": 0
+   },
+   {
+    "name": "Boyutkat",
+    "offers": 0
+   },
+   {
+    "name": "Depo3D",
+    "offers": 0
+   },
+   {
+    "name": "Direnc.net",
+    "offers": 10
+   },
+   {
+    "name": "Elektrovadi",
+    "offers": 0
+   },
+   {
+    "name": "F1Depo",
+    "offers": 0
+   },
+   {
+    "name": "FilamentMarketim",
+    "offers": 26
+   },
+   {
+    "name": "Filameon",
+    "offers": 0
+   },
+   {
+    "name": "Gaming.gen.tr",
+    "offers": 0
+   },
+   {
+    "name": "Makerpazar",
+    "offers": 17
+   },
+   {
+    "name": "Matersan",
+    "offers": 21
+   },
+   {
+    "name": "MetatechTR (Bambu Lab distributor)",
+    "offers": 22
+   },
+   {
+    "name": "Motorobit",
+    "offers": 0
+   },
+   {
+    "name": "Porima 3D",
+    "offers": 26
+   },
+   {
+    "name": "Robo90",
+    "offers": 22
+   },
+   {
+    "name": "Robolink Market",
+    "offers": 27
+   },
+   {
+    "name": "Robotistan",
+    "offers": 20
+   },
+   {
+    "name": "Robotzade",
+    "offers": 12
+   },
+   {
+    "name": "SAMM Market",
+    "offers": 0
+   },
+   {
+    "name": "Teknodurak",
+    "offers": 0
+   },
+   {
+    "name": "Ucboyut",
+    "offers": 0
+   },
+   {
+    "name": "Voltaj",
+    "offers": 0
+   }
+  ],
+  "not_covered": [
+   {
+    "name": "3D Printer Dünyası",
+    "reason": "refuses automated reading (product list (sitemap) could not be read)"
+   },
+   {
+    "name": "3D Yazıcı Türkiye",
+    "reason": "prices only load inside a full browser"
+   },
+   {
+    "name": "Amazon.com.tr",
+    "reason": "automated search returned none of these printers"
+   },
+   {
+    "name": "Hepsiburada",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "idefix",
+    "reason": "search is closed to automated reading"
+   },
+   {
+    "name": "İncehesap",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "İtopya",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "Koçtaş",
+    "reason": "refuses automated reading (access denied)"
+   },
+   {
+    "name": "MediaMarkt",
+    "reason": "does not answer automated requests"
+   },
+   {
+    "name": "N11",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "Pazarama",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "PttAVM",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "Sinerji",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "Teknosa",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "Trendyol",
+    "reason": "answers automated reading with a bot check"
+   },
+   {
+    "name": "Vatan Bilgisayar",
+    "reason": "refuses automated reading (HTTP 403)"
+   },
+   {
+    "name": "Çiçeksepeti",
+    "reason": "answers automated reading with a bot check"
+   }
+  ]
+ }
+}
