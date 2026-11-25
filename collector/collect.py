@@ -128,11 +128,16 @@ def variant_of(brand: str, model: str, f: str) -> str:
             return "Combo"
         return ""
     if model == "Saturn 4 Ultra 16K":
+        if re.search(r"\b(bundle|set|seti|paket)\s*2\b", f):
+            return "Bundle 2"                # a store's second, larger bundle
         return "Bundle" if re.search(r"\b(bundle|set|seti|paket|mercury)\b", f) else ""
     if model == "K2 Plus":
         return "Combo" if re.search(r"\b(combo|cfs)\b", f) else ""
     if model == "Centauri Carbon 2":
-        return "Combo" if re.search(r"\b(combo|canvas)\b", f) else ""
+        combo = bool(re.search(r"\b(combo|canvas)\b", f))
+        if re.search(r"\b(kurutucu|dryer)\b", f):      # sold with a filament dryer
+            return "Combo + Dryer Bundle" if combo else "Dryer Bundle"
+        return "Combo" if combo else ""
     return ""
 
 
@@ -521,7 +526,16 @@ def dedupe(offers: list[dict]) -> list[dict]:
         if cur is None or (re.search(r"-en(-\d+)?$", cur["url"])
                            and not re.search(r"-en(-\d+)?$", o["url"])):
             best[key] = o
-    return list(best.values())
+    kept = list(best.values())
+    # An English copy of a page can be worded differently and land in another
+    # version: drop it when the store's own-language page has the same model,
+    # price and status.
+    en = re.compile(r"-en(-\d+)?$")
+    native = {(o["model"], o["price_try"], o["status"])
+              for o in kept if not en.search(o["url"])}
+    return [o for o in kept if not (
+        en.search(o["url"])
+        and (o["model"], o["price_try"], o["status"]) in native)]
 
 
 # --------------------------------------------------------------------------
