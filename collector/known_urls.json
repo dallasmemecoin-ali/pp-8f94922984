@@ -63,7 +63,7 @@
    "https://www.robotistan.com/tz4-0-bambu-lab-x1-p1p-yukseltilmis-hotend",
    "https://www.robotistan.com/xtool-p2s-55w-lazer-kesim-makinesi"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "robo90": {
   "urls": [
@@ -252,7 +252,7 @@
    "https://www.robo90.com/tz20-bambu-lab-p1p-p1s-tam-hotend-seti",
    "https://www.robo90.com/tz30-bambu-lab-p1p-p1s-tam-hotend-seti-gelismis-versiyon"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "porima": {
   "urls": [],
@@ -373,7 +373,7 @@
    "https://3dcim.com/xtool-p2s",
    "https://3dcim.com/y-axial-motor-kit-for-k2-plus-2750"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "3dteknomarket": {
   "urls": [],
@@ -396,7 +396,7 @@
   "skip": [
    "https://www.direnc.net/elegoo-saturn-4-ultra-12k-recineli-msla-3d-yazici"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "metatech": {
   "urls": [
@@ -651,7 +651,7 @@
    "https://store.metatechtr.com/z-motor-for-p2s",
    "https://store.metatechtr.com/z-timing-pulley-for-p1p-p1s-x1-x1c-x1e"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "filamentmarketim": {
   "urls": [
@@ -805,7 +805,7 @@
    "https://www.filamentmarketim.com/phaetus-m4-conch-hotend-a1-a1-mini-h2c-h2d-h2s-p2s-x2d-0.4mm",
    "https://www.filamentmarketim.com/phaetus-m4-conch-hotend-silikon-corap-h2d"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "makerpazar": {
   "urls": [
@@ -866,7 +866,7 @@
    "https://makerpazar.com/elegoo-saturn-4-ultra-12k-3d-yazici",
    "https://makerpazar.com/reality-k2-k2-plus-k2-pro-hi-uyumlu-unicorn-quick-swap-nozzle"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "matersan": {
   "urls": [
@@ -969,7 +969,7 @@
    "https://www.matersan.com.tr/urun/xtool-p2s",
    "https://www.matersan.com.tr/urun/xtool-riser-base-p2-p2s"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "robolinkmarket": {
   "urls": [
@@ -1078,7 +1078,7 @@
    "https://www.robolinkmarket.com/phaetus-conch-m4-hotend-bambu-lab-h2d-uyumlu-04mm-degistirilebilir-nozzle",
    "https://www.robolinkmarket.com/xtool-p2s"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "robotzade": {
   "urls": [
@@ -1098,7 +1098,7 @@
   "skip": [
    "https://www.robotzade.com/urun/elegoo-saturn-4-ultra-12k-3d-yazici"
   ],
-  "discovered_at": "2026-11-26T20:09:01+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "motorobit": {
   "urls": [],
@@ -1106,76 +1106,76 @@
    "https://www.motorobit.com/bamboo-lab-x1-p1p-p1s-peipey-coated-spring-steel-magnetic-table-257x257mm",
    "https://www.motorobit.com/bambu-lab-x1-p1p-p1s-peipey-kapli-yay-celigi-manyetik-tabla-257x257mm"
   ],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "f1depo": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "samm": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "voltaj": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "elektrovadi": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "ucboyut": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "depo3d": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "boyutkat": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "teknodurak": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "abgteknoloji": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "3dpazar": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "filameon": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "gaming": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "botech": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  },
  "3dprinterdunyasi": {
   "urls": [],
   "skip": [],
-  "discovered_at": "2026-11-27T01:21:38+00:00"
+  "discovered_at": "2026-11-27T02:59:34+00:00"
  }
 }
