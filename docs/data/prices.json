@@ -1,9 +1,9 @@
 {
- "collected_at": "2026-11-27T21:58:38+00:00",
+ "collected_at": "2026-11-27T22:59:28+00:00",
  "rate": {
-  "usd_try": 50.7368,
-  "source": "Yahoo Finance",
-  "at": "2026-11-27T22:00:01+00:00"
+  "usd_try": 50.7674,
+  "source": "Truncgil Finans",
+  "at": "2026-11-27T23:02:52+00:00"
  },
  "models": [
   {
@@ -21,7 +21,7 @@
      "price_try": 35470.9,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -33,7 +33,7 @@
      "price_try": 37602.47,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -45,7 +45,7 @@
      "price_try": 43177.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -57,7 +57,7 @@
      "price_try": 43196.48,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -69,7 +69,7 @@
      "price_try": 44400.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -89,7 +89,7 @@
      "price_try": 48426.27,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -101,7 +101,7 @@
      "price_try": 48896.4,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -113,7 +113,7 @@
      "price_try": 49756.17,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -125,7 +125,7 @@
      "price_try": 51488.58,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -137,7 +137,7 @@
      "price_try": 51900.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -149,7 +149,7 @@
      "price_try": 53770.72,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -161,7 +161,7 @@
      "price_try": 50233.73,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -173,7 +173,7 @@
      "price_try": 50779.5,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -185,7 +185,7 @@
      "price_try": 51894.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -197,7 +197,7 @@
      "price_try": 60820.87,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -217,7 +217,7 @@
      "price_try": 21571.9,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -229,7 +229,7 @@
      "price_try": 23051.62,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -241,7 +241,7 @@
      "price_try": 24116.51,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -253,7 +253,7 @@
      "price_try": 24174.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -265,7 +265,7 @@
      "price_try": 24325.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -277,7 +277,7 @@
      "price_try": 24383.86,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -289,7 +289,7 @@
      "price_try": 24599.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -301,7 +301,7 @@
      "price_try": 25200.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -310,10 +310,10 @@
      "seller": "",
      "title": "Bambu Lab A2L 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-a2l-3d-yazici",
-     "price_try": 25466.31,
+     "price_try": 25475.27,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -325,7 +325,7 @@
      "price_try": 23275.48,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -337,7 +337,7 @@
      "price_try": 24449.99,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -357,7 +357,7 @@
      "price_try": 27202.46,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -369,7 +369,7 @@
      "price_try": 29573.97,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -381,7 +381,7 @@
      "price_try": 29860.87,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -393,7 +393,7 @@
      "price_try": 30294.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -405,7 +405,7 @@
      "price_try": 30913.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -417,7 +417,7 @@
      "price_try": 31072.22,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -429,7 +429,7 @@
      "price_try": 31328.29,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -441,7 +441,7 @@
      "price_try": 30941.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -453,7 +453,7 @@
      "price_try": 32400.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -465,7 +465,7 @@
      "price_try": 32639.99,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -474,10 +474,10 @@
      "seller": "",
      "title": "Bambu Lab A2L Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-a2l-combo-3d-yazici",
-     "price_try": 32671.86,
+     "price_try": 32683.36,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -489,7 +489,7 @@
      "price_try": 35001.95,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -509,7 +509,7 @@
      "price_try": 25000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -521,7 +521,7 @@
      "price_try": 26290.42,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -533,7 +533,7 @@
      "price_try": 27051.63,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -542,10 +542,10 @@
      "seller": "",
      "title": "Bambu Lab P1P 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-p1p-3d-yazici",
-     "price_try": 28116.03,
+     "price_try": 28125.93,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -557,7 +557,7 @@
      "price_try": 28283.02,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -569,7 +569,7 @@
      "price_try": 30462.96,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -581,7 +581,7 @@
      "price_try": 34056.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -593,7 +593,7 @@
      "price_try": 35213.26,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -613,7 +613,7 @@
      "price_try": 22773.06,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -625,7 +625,7 @@
      "price_try": 23051.62,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -637,7 +637,7 @@
      "price_try": 24873.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -649,7 +649,7 @@
      "price_try": 25240.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -661,7 +661,7 @@
      "price_try": 25500.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -670,10 +670,10 @@
      "seller": "",
      "title": "Bambu Lab P1S 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-p1s-3d-yazici",
-     "price_try": 25706.59,
+     "price_try": 25715.64,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -685,7 +685,7 @@
      "price_try": 23275.48,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -697,7 +697,7 @@
      "price_try": 24370.37,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -709,7 +709,7 @@
      "price_try": 24692.52,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -721,7 +721,7 @@
      "price_try": 25999.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -733,7 +733,7 @@
      "price_try": 27498.44,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -745,7 +745,7 @@
      "price_try": 32130.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -765,7 +765,7 @@
      "price_try": 40247.71,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -774,10 +774,10 @@
      "seller": "",
      "title": "Bambu Lab P1S 3D Yazıcı + Bambu Lab AMS 2 Pro",
      "url": "https://porima3d.com/products/bambu-lab-p1s-3d-yazici-bambu-lab-ams-2-pro",
-     "price_try": 41896.83,
+     "price_try": 41911.58,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -789,7 +789,7 @@
      "price_try": 44597.77,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -801,7 +801,7 @@
      "price_try": 45732.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -821,7 +821,7 @@
      "price_try": 31003.53,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -833,7 +833,7 @@
      "price_try": 31304.4,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -845,7 +845,7 @@
      "price_try": 31785.02,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -857,7 +857,7 @@
      "price_try": 32358.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -866,10 +866,10 @@
      "seller": "",
      "title": "Bambu Lab P1S Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-p1s-combo-3d-yazici",
-     "price_try": 34736.3,
+     "price_try": 34748.52,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -881,7 +881,7 @@
      "price_try": 34800.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -893,7 +893,7 @@
      "price_try": 32698.6,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -905,7 +905,7 @@
      "price_try": 33001.54,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -917,7 +917,7 @@
      "price_try": 34999.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -929,7 +929,7 @@
      "price_try": 37454.4,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -941,7 +941,7 @@
      "price_try": 37894.9,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -953,7 +953,7 @@
      "price_try": 38475.84,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -973,7 +973,7 @@
      "price_try": 29573.97,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -985,7 +985,7 @@
      "price_try": 31115.52,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -997,7 +997,7 @@
      "price_try": 32060.0,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1009,7 +1009,7 @@
      "price_try": 35793.98,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1021,7 +1021,7 @@
      "price_try": 29860.87,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1033,7 +1033,7 @@
      "price_try": 31479.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1045,7 +1045,7 @@
      "price_try": 31786.81,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1054,10 +1054,10 @@
      "seller": "",
      "title": "Bambu Lab P2S 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-p2s-3d-yazici",
-     "price_try": 33134.22,
+     "price_try": 33145.88,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1069,7 +1069,7 @@
      "price_try": 33999.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1081,7 +1081,7 @@
      "price_try": 37694.74,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1093,7 +1093,7 @@
      "price_try": 37800.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1113,7 +1113,7 @@
      "price_try": 39491.53,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1125,7 +1125,7 @@
      "price_try": 39874.92,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1137,7 +1137,7 @@
      "price_try": 41707.5,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1149,7 +1149,7 @@
      "price_try": 42409.68,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1161,7 +1161,7 @@
      "price_try": 43663.58,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1173,7 +1173,7 @@
      "price_try": 43800.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1182,10 +1182,10 @@
      "seller": "",
      "title": "Bambu Lab P2S Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-p2s-combo-3d-yazici",
-     "price_try": 44246.08,
+     "price_try": 44261.64,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1197,7 +1197,7 @@
      "price_try": 50701.14,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1209,7 +1209,7 @@
      "price_try": 41236.82,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1221,7 +1221,7 @@
      "price_try": 46095.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1233,7 +1233,7 @@
      "price_try": 48872.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1245,7 +1245,7 @@
      "price_try": 48960.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1265,7 +1265,7 @@
      "price_try": 213635.65,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1274,10 +1274,10 @@
      "seller": "",
      "title": "Bambu Lab H2D Pro 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2d-pro-3d-yazici",
-     "price_try": 224883.24,
+     "price_try": 224962.37,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1297,7 +1297,7 @@
      "price_try": 207414.08,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1309,7 +1309,7 @@
      "price_try": 213454.49,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1321,7 +1321,7 @@
      "price_try": 219000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1333,7 +1333,7 @@
      "price_try": 221009.06,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1345,7 +1345,7 @@
      "price_try": 226488.29,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1365,7 +1365,7 @@
      "price_try": 88940.48,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1377,7 +1377,7 @@
      "price_try": 93013.57,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1386,10 +1386,10 @@
      "seller": "",
      "title": "Bambu Lab H2D 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2d-3d-yazici",
-     "price_try": 98720.76,
+     "price_try": 98755.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1401,7 +1401,7 @@
      "price_try": 89803.92,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1413,7 +1413,7 @@
      "price_try": 90245.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1425,7 +1425,7 @@
      "price_try": 94728.68,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1437,7 +1437,7 @@
      "price_try": 95476.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1449,7 +1449,7 @@
      "price_try": 108237.07,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1469,7 +1469,7 @@
      "price_try": 101696.53,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1481,7 +1481,7 @@
      "price_try": 102683.89,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1493,7 +1493,7 @@
      "price_try": 103517.68,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1505,7 +1505,7 @@
      "price_try": 103574.06,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1517,7 +1517,7 @@
      "price_try": 106423.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1529,7 +1529,7 @@
      "price_try": 108000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1541,7 +1541,7 @@
      "price_try": 108057.39,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1550,10 +1550,10 @@
      "seller": "",
      "title": "Bambu Lab H2D Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2d-combo-3d-yazici",
-     "price_try": 112879.45,
+     "price_try": 112919.16,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1565,7 +1565,7 @@
      "price_try": 115563.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1577,7 +1577,7 @@
      "price_try": 115794.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1589,7 +1589,7 @@
      "price_try": 116280.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1609,7 +1609,7 @@
      "price_try": 109027.71,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1629,7 +1629,7 @@
      "price_try": 116030.6,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1641,7 +1641,7 @@
      "price_try": 180540.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1661,7 +1661,7 @@
      "price_try": 123865.67,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1673,7 +1673,7 @@
      "price_try": 131521.28,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1685,7 +1685,7 @@
      "price_try": 132000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1697,7 +1697,7 @@
      "price_try": 135306.31,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1706,10 +1706,10 @@
      "seller": "",
      "title": "Bambu Lab H2D Laser Full Combo 10W 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2d-laser-full-combo-10w-3d-yazici",
-     "price_try": 137486.79,
+     "price_try": 137535.17,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1721,7 +1721,7 @@
      "price_try": 125068.57,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1733,7 +1733,7 @@
      "price_try": 131680.15,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1745,7 +1745,7 @@
      "price_try": 144583.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1757,7 +1757,7 @@
      "price_try": 158206.45,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1777,7 +1777,7 @@
      "price_try": 146210.76,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1789,7 +1789,7 @@
      "price_try": 168000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1801,7 +1801,7 @@
      "price_try": 169069.43,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1813,7 +1813,7 @@
      "price_try": 147630.62,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1825,7 +1825,7 @@
      "price_try": 155268.66,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1834,10 +1834,10 @@
      "seller": "",
      "title": "Bambu Lab H2D Laser Full Combo 40W 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2d-laser-full-combo-40w-3d-yazici",
-     "price_try": 162288.89,
+     "price_try": 162346.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1849,7 +1849,7 @@
      "price_try": 174319.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1861,7 +1861,7 @@
      "price_try": 197777.61,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1873,7 +1873,7 @@
      "price_try": 209804.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1893,7 +1893,7 @@
      "price_try": 64508.79,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1905,7 +1905,7 @@
      "price_try": 65134.97,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1917,7 +1917,7 @@
      "price_try": 68535.49,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1926,10 +1926,10 @@
      "seller": "",
      "title": "Bambu Lab H2S 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2s-3d-yazici",
-     "price_try": 71266.4,
+     "price_try": 71291.48,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1941,7 +1941,7 @@
      "price_try": 76320.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1953,7 +1953,7 @@
      "price_try": 77727.84,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1965,7 +1965,7 @@
      "price_try": 80472.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -1985,7 +1985,7 @@
      "price_try": 74247.65,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -1997,7 +1997,7 @@
      "price_try": 77739.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2009,7 +2009,7 @@
      "price_try": 78855.21,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2021,7 +2021,7 @@
      "price_try": 79203.7,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2033,7 +2033,7 @@
      "price_try": 81600.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2042,10 +2042,10 @@
      "seller": "",
      "title": "Bambu Lab H2S Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2s-combo-3d-yazici",
-     "price_try": 82412.15,
+     "price_try": 82441.15,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2057,7 +2057,7 @@
      "price_try": 88942.35,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2069,7 +2069,7 @@
      "price_try": 74968.3,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2081,7 +2081,7 @@
      "price_try": 84159.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2093,7 +2093,7 @@
      "price_try": 90944.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2105,7 +2105,7 @@
      "price_try": 91800.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2125,7 +2125,7 @@
      "price_try": 96763.19,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2137,7 +2137,7 @@
      "price_try": 103117.62,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2149,7 +2149,7 @@
      "price_try": 105979.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2158,10 +2158,10 @@
      "seller": "",
      "title": "Bambu Lab H2S Laser Full Combo 10W 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2s-laser-full-combo-10w-3d-yazici",
-     "price_try": 107403.95,
+     "price_try": 107441.74,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2173,7 +2173,7 @@
      "price_try": 137083.32,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2185,7 +2185,7 @@
      "price_try": 97702.73,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2197,7 +2197,7 @@
      "price_try": 101355.0,
      "status": "out_of_stock",
      "note": "Store page mentions pre-order, but it cannot be ordered now.",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2209,7 +2209,7 @@
      "price_try": 103102.96,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2221,7 +2221,7 @@
      "price_try": 103200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2241,7 +2241,7 @@
      "price_try": 111684.19,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2253,7 +2253,7 @@
      "price_try": 114095.16,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2265,7 +2265,7 @@
      "price_try": 120000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2277,7 +2277,7 @@
      "price_try": 112768.56,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2289,7 +2289,7 @@
      "price_try": 115484.35,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2301,7 +2301,7 @@
      "price_try": 116774.68,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2313,7 +2313,7 @@
      "price_try": 119194.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2322,10 +2322,10 @@
      "seller": "",
      "title": "Bambu Lab H2C Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2c-combo-3d-yazici",
-     "price_try": 126294.0,
+     "price_try": 126338.44,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2337,7 +2337,7 @@
      "price_try": 129744.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2349,7 +2349,7 @@
      "price_try": 132550.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2361,7 +2361,7 @@
      "price_try": 134100.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2373,7 +2373,7 @@
      "price_try": 139449.61,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2393,7 +2393,7 @@
      "price_try": 133419.66,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2405,7 +2405,7 @@
      "price_try": 139621.9,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2414,10 +2414,10 @@
      "seller": "",
      "title": "Bambu Lab H2C Laser Full Combo 10W 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2c-laser-full-combo-10w-3d-yazici",
-     "price_try": 150873.02,
+     "price_try": 150926.1,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2429,7 +2429,7 @@
      "price_try": 173317.49,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2441,7 +2441,7 @@
      "price_try": 134715.06,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2453,7 +2453,7 @@
      "price_try": 144599.73,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2465,7 +2465,7 @@
      "price_try": 150000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2485,7 +2485,7 @@
      "price_try": 155155.12,
      "status": "pre_order",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2494,10 +2494,10 @@
      "seller": "",
      "title": "Bambu Lab H2C Laser Full Combo 40W 3D Yazıcı",
      "url": "https://porima3d.com/products/bambu-lab-h2c-laser-full-combo-40w-3d-yazici",
-     "price_try": 175451.02,
+     "price_try": 175512.76,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2509,7 +2509,7 @@
      "price_try": 156661.56,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2521,7 +2521,7 @@
      "price_try": 168346.35,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2533,7 +2533,7 @@
      "price_try": 171000.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2545,7 +2545,7 @@
      "price_try": 182500.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2557,7 +2557,7 @@
      "price_try": 191916.65,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2569,7 +2569,7 @@
      "price_try": 200378.99,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2589,7 +2589,7 @@
      "price_try": 68415.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2601,7 +2601,7 @@
      "price_try": 61473.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2613,7 +2613,7 @@
      "price_try": 70744.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2625,7 +2625,7 @@
      "price_try": 75753.79,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2637,7 +2637,7 @@
      "price_try": 76157.4,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2649,7 +2649,7 @@
      "price_try": 76200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2658,10 +2658,10 @@
      "seller": "",
      "title": "Creality K2 Plus 3D Yazıcı",
      "url": "https://porima3d.com/products/creality-k2-plus-3d-yazici",
-     "price_try": 77277.1,
+     "price_try": 77304.29,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2673,7 +2673,7 @@
      "price_try": 78578.03,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2693,7 +2693,7 @@
      "price_try": 74799.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2705,7 +2705,7 @@
      "price_try": 74849.81,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2717,7 +2717,7 @@
      "price_try": 76017.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2726,10 +2726,10 @@
      "seller": "",
      "title": "Creality K2 Plus Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/creality-k2-plus-combo-3d-yazici",
-     "price_try": 76718.63,
+     "price_try": 76745.62,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2741,7 +2741,7 @@
      "price_try": 84000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2753,7 +2753,7 @@
      "price_try": 86311.72,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2765,7 +2765,7 @@
      "price_try": 71200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2777,7 +2777,7 @@
      "price_try": 79560.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2789,7 +2789,7 @@
      "price_try": 88149.34,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2809,7 +2809,7 @@
      "price_try": 47178.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2818,10 +2818,10 @@
      "seller": "",
      "title": "Creality Ender-5 Max 3D Yazıcı",
      "url": "https://porima3d.com/products/creality-ender-5-max-3d-yazici",
-     "price_try": 49079.12,
+     "price_try": 49096.39,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2833,7 +2833,7 @@
      "price_try": 50170.5,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2845,7 +2845,7 @@
      "price_try": 50263.88,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2857,7 +2857,7 @@
      "price_try": 50941.34,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2869,7 +2869,7 @@
      "price_try": 51211.17,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -2889,7 +2889,7 @@
      "price_try": 20745.58,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2901,7 +2901,7 @@
      "price_try": 23542.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2913,7 +2913,7 @@
      "price_try": 23602.48,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2925,7 +2925,7 @@
      "price_try": 23700.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2934,10 +2934,10 @@
      "seller": "",
      "title": "ELEGOO Centauri Carbon 2 Combo 3D Yazıcı",
      "url": "https://porima3d.com/products/elegoo-centauri-carbon-2-combo-3d-yazici",
-     "price_try": 23942.64,
+     "price_try": 23951.06,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2949,7 +2949,7 @@
      "price_try": 24333.84,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2961,7 +2961,7 @@
      "price_try": 29638.6,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2973,7 +2973,7 @@
      "price_try": 24370.37,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2985,7 +2985,7 @@
      "price_try": 27499.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -2997,7 +2997,7 @@
      "price_try": 28256.46,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -3017,7 +3017,7 @@
      "price_try": 26789.05,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -3037,7 +3037,7 @@
      "price_try": 24172.09,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3049,7 +3049,7 @@
      "price_try": 26504.99,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3061,7 +3061,7 @@
      "price_try": 26599.75,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3073,7 +3073,7 @@
      "price_try": 26854.24,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3085,7 +3085,7 @@
      "price_try": 27300.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3097,7 +3097,7 @@
      "price_try": 27468.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3109,7 +3109,7 @@
      "price_try": 27679.74,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3121,7 +3121,7 @@
      "price_try": 28094.92,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3133,7 +3133,7 @@
      "price_try": 27416.66,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3145,7 +3145,7 @@
      "price_try": 27440.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3157,7 +3157,7 @@
      "price_try": 27540.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -3177,7 +3177,7 @@
      "price_try": 32000.0,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3189,7 +3189,7 @@
      "price_try": 32537.39,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3201,7 +3201,7 @@
      "price_try": 33050.5,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3213,7 +3213,7 @@
      "price_try": 34200.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3225,7 +3225,7 @@
      "price_try": 35271.0,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3237,7 +3237,7 @@
      "price_try": 36555.55,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     },
     {
@@ -3249,7 +3249,7 @@
      "price_try": 44785.82,
      "status": "out_of_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
@@ -3269,7 +3269,7 @@
      "price_try": 38249.1,
      "status": "in_stock",
      "note": "",
-     "checked_at": "2026-11-27T21:58:38+00:00",
+     "checked_at": "2026-11-27T22:59:28+00:00",
      "stale": false
     }
    ]
